@@ -1,0 +1,466 @@
+
+počítačová síť - propojení více počítačů(min. 2)
+                 pomocí sítového rozhraní. 
+
+  služby - přístup k internetu
+         - přístup k souborům
+         - připojení do jiných sítí(sdílená data)
+         - přístup k hardware(tiskárna CD rom atd.)
+         - komunikace
+
+PC síť(aktivní prvky)      - počítače, mobilní zařízení tiskárny, hlasový asist. 
+
+PC síť (koncová zařízení)  -  hap, switch, wifi router, 
+
+ 
+//SÍTĚ
+
+          -peer to peer  [p2p] (nemá server)
+          -client server [c-s] (má server)
+
+//ROZDĚLENÍ SÍTÍ PODLE
+          
+          -podle přístupu:  private(soukromá)
+                            public(vřejná)    
+
+          -podle velikosti: SAN - storage area 
+                            PAN - personal area 
+                            LAN - local area
+                            MAN - metropolitní/městská  area
+                            WAN - wide area /internet/ prakticky celý internet
+
+//ROZDĚLENÍ TOPOLOGIÍ
+
+          - topologie sítí  bus
+   ( jak je sít postavena)  ring 
+                            star
+                            extended star           
+                            	
+				
+           - topologie      logická   ( zápis zařízení do místností )
+                            fyzická   ( kompletní zapojení sítě )
+                            signálová ( znázornění toku dat v síti )
+              
+
+
+
+//SÍTĚ :
+
+ peer to peer (p2p)
+  - nejběžnější typ počítačové sítě 
+  - pro malé podniky, domácí sítě
+  - nejnižší stupen zabezpečení, každá
+   stanice musí být zabezpečena sama
+    .data jsou chráněna heslem uživatele nebo vůbec
+  -sít používá pracovní skupinu
+ [+]levná, jednoduchá na (správu, vytvoření)
+ [-]zabezpečení, pomalejší, 
+  -typy kabelů (tenký/tlustý koaxiální, kroucená dvoulinka, optická vlákna)
+  - použité topologie(BUS, RING, STAR)
+
+ Klient server (c-s)
+  -střední a velké podniky
+  - pokročilejší hardware
+  - mezi základ sítě patří server
+  - nabízí pokročilé služby(pošta, web, FTP, DHCP)
+  [+] centrální správa, velká úroven zabezpečení, centrílní úložiště, 
+  [-] drahé pořizovací nálkady, složitá správa
+  - typy kabelů (kroucená dvoulinka, optická vlákna, bezdrátové spoje, FSO[free space optik], laserové )
+  - použití topologie (STAR, EXTENDED STAR)
+
+
+
+//TOPOLOGIE SÍTÍ :
+
+ A. bus
+  - jedna z prvních topologií (vychází z ní ring)
+  - typy kabelů (tenký a tlustý koaxiální)
+  - přenosové rychlosti 10 nebo 100 mbitů/s
+  [+] (levná, snadná instalace)
+  [-] (pomalá, poruchová, nizká přenosová rychlost, nesnadná lokalizace závad)
+  - závady : chabý terminátor, porušení kabelu
+ 
+ B. ring
+  - jedna z prvních topologii
+  - typy kabelů (koaxiální kabel)
+  - přenosové rychlosti 10 nebo 100 mbitů/s
+  [+] výhody (levná, snadná instalace)
+  [-] nevýhody (pomalá, poruchová, nizká přenosová rychlost, nesnadná lokalizace závad)
+  - závady : hledaní vadného kabelu (rozpojit na bus a zmenšovat síť jako u bus)
+
+ C. star
+  - je tvořena centrálním prvkem (hub, switch)
+  - typy kabelů (kroucená dvou linka)
+  - konektory RJ-45
+  - přímý kabel( T568B - T568B )
+  [+] (rychlost, snadná instalace, snadná diagnostika závad)
+  [+] (díky centrálnímu prvku mohou být vyšší pořizovací náklady)
+  - přenosvové rychlosti - 10, 100, 1000, 2500, 5000, 10000
+  - závady : špatně nacvaknutý konektor, špatný kabel
+
+ D. extended star
+  - středně velké a velké podniky
+  - (kroucená dvoulinka, optický kabel, bezdrát)
+  - 10base2 / 10base5 tenký a tlustý (10-rychlost(mbit/s) 2/5-délka(m))
+  - 2 = 200m _ 185m
+  - 5 = 500m _ 485m
+  - impedance = odpor
+
+
+//KABELY :
+
+ Koaxiální kabel
+   [+] (pevné spojení vodiče a konektoru)
+   [-] (rychlost) 
+ 
+ Konektor kroucené dvoulinky
+   - název : RJ-45
+   - rychlost :
+       100mbit/s   2 páry
+       1000mbit/s  4 páry + cat.
+   - 2 zapojení kabelu :
+      křížený = T568A - T568B (pro stejná zařízení )
+      přímý   = T568B - T568B (vše ostatní)
+   - zapojení konektoru
+    T568A 
+    T568B
+    (mají prohozoné zelené a oranžové konektory )
+
+
+ Optický kabel
+   - způsob přenosu dat pomocí napětí
+   - digitální singál
+   - signál - analogový
+   - výroba - plast / sklo
+   - 2 konektory : SC/LC
+   - rozdělení na :
+     .jednovidový(jeden drát)
+     .vícevidový(více drátů)
+  [-] (křehkost, nefunkčnost kabelu při velkém ohnutí)
+     
+
+//MODELY :
+         
+    v sitích se využívají dva základní
+    modely pomocí, kterých se řídí 
+    komunikacev síti (ISO/OSI a TCP-IP)
+
+ 1. ISO/OSI
+  - jedná se o teoretický model
+  - rozdělen do sedmi vrstev a každá má na 
+    starosti svoji funkci
+  - znázornuje komunikaci mezi
+    dvěma body
+  - vrstvy : (pořadí směrem ->) [Fyzická, Linková, Sítová, Transportační, Relační, Prezenční, Aplikační]
+
+ 2.TCP-IP
+  - model využívaný v běžné praxi
+  - založený na protokolech
+  - zjednodušení modelu na čtyři vrstvy
+   díky sloučení vrstev z modelu ISO/OSI
+  - IEEE (standart) wifi a připojení 
+  - vrstvy : (pořádí směrem ->) [Síťového rozhraní, Síťová(IP), Transportační, Aplikační]
+  
+//VRSTVY :
+
+   _Fyzická vrstva
+  -funkce:
+   .zajištuje převod bitů na signál na jeho přenos přenosové cestě 
+   .vytváří bity
+   .fyzické propojení dvou zařízení (uzlů)
+   .pracuje s modulací, kodováním, sinchronizace/regulování
+
+  -zařízení :
+    .pasivní (nezpracovávají signál např:)
+             .kabely
+
+    .aktivní (zpracování signálu např:)
+
+           .repeater  - vstupuje do něj kabel a vystupuje 
+                        stejný typ kabelu, zesiluje a opravuje
+                        signál   
+                      - typy kabelů (kroucená dvoulinka/optické) 
+                      - použití pro dálkové spoje
+
+            .extender - rozšíření bezdrátové sítě zesiluje
+                        a opravuje signál  
+                      - nutno umístit do místa s dostačujícím   
+                        signálem, dochází zde ke zrátě 
+            [+]výhody (oprava signálu, možnost rozšíření bezdrátové sítě kabelem/wifi, snadná konfigurace,levné)
+            [-]nevýhody (v případě použití wifi při vstupu dochází k razantnímu snížení rychlosti )
+ 
+
+            .převodník - oprava a zesílení signálu
+                       - převádí typy kabelů 
+                       - převod jednoho signálu na druhý.                     
+            [+]výhody (levné řešení při převodu mezi signály, snadné zapojení), 
+             
+
+
+            .HUB       - (rozbočovač)
+                       - jedná se o nejprimitivnější zařízení
+                         které slouží k rozbočení kabelů (signálu)
+                         kopíruje signál z jednoho na všechny porty,
+                         pro zařízení pro které není signál určen 
+                         zaniká
+
+            .NIC       - převádí bity na napětí a obráceně
+                       - digitální/analogový
+                       - metalický kabel
+
+
+   _Linková vrstva
+  -funkce:       
+   .2 vrstva modelu ISO/OSI
+   .primární úkol vrstvy je komunikace
+    s okolními vrstvami, práce s rámci, 
+    řešení kolizí, práces fyzickou adresou
+   .spolehlivá
+   .rámec
+     - první stupeň zapouzdření (L1 přicházejí bity, transformace na data)
+     - nejmenší jednotka linkové vrstvy
+     - rozdělení : 
+                  .hlavička (MAC adresa příjemce a odesílatele
+                  .Data
+                  .patička (kontrolní součet dat)
+       
+                                     
+   .zařízení :
+
+           .L2switch    - pracuje s rámci
+                        - pro jejich analýzu používá metodya
+                           .a)cut and through
+                           .b)store and forward
+                           .c)adaptive switching (střídá mezi [a] a [b] podle výhodnosti)
+                           .d)fragment free
+                        - má 52 portů
+                        - spojuje zařízení v síti do sítové topologie star
+                        - rozdělení switche:
+                           .SOHO (small office, home office)
+                           .PRO
+
+                           .bez OS
+                           .s OS
+                        - posílá "hello packet": žádá nové
+                          připojené zařízení o MAC adresu,                  
+                          ty si ukládá do MAC Tablu (tabulky MAC adres)
+                        - port mirroring: virtuální překopírování
+                          MAC ard. z PC na daný port Switche tam                            
+                          kde je pc připojený (děje se na základě MAC tabulky)
+
+           .Bridge
+ 
+
+
+
+   _Sitová vrstva
+ -funkce:
+   .komunikuje s okolními vrstvami(linková, transportní)
+   .stará se o adresy
+   .převádí data z jedné sítě do druhé (routvání)
+   . vzniká packet a zařízení je (L3 switch, router)
+
+ ICMP
+ RIP
+ OPSF
+ BGB
+
+_zařízení_
+
+_router
+.chytré zařizení(považuje se)
+.vytváří podsítě 
+.mezi jednotlivýmipodstítěmi
+ směřuje packety (routování)
+.pro směrování packetů se využívá
+ routovací tabulka ve, které jsou
+ uloženy záznamy všech podsítí
+.routování probíhá [2] způsoby
+[1] statické  - jednotlivé záznamy dělá
+                administrátor manuálně
+
+[2] dinamické - probíhá routování na základě
+                routovacího protokolu
+
+.rozdělení routovacích protokolů
+
+ (interior) - Distance-vector - RIP, RIP2
+                              - IGRP,EIGRP
+
+            - Link-state      - IS-IS
+                              - OSPF    
+  
+
+ (exterior) - Path-vector     - BGP     
+
+ IP
+-část rodinných protokolů
+-TCP/IP
+ .IP = protokol na třetí vrstvě (na starost IP adresy)
+ .TCP = protokol na čtvrté vrstvě
+- IP adresa
+  .ver. IPv4/IPv6
+  . dle umístění (privátní/veřejné)
+  .vlastnosti: 
+    -jedinečnost (v dané síti se nesmí opakovat)
+    -v rámci jedné sítě musí být zachována třída,
+     tak aby byla zachována komunikace v síti.
+    -vždy svázaná s maskou
+- IP adresy (speciální)
+  . 0.0.0.0 
+    -DEFAULTNÍ ROUTA (vyhození ze sítě)
+    -požadavek na IP adresu DHCP
+  . 127.0.0.1
+    -LOCAL HOST	
+    -označení lokálního počítače (počítač, u kterého sedím)
+  . 127.0.0.255
+    -LOOPBACK
+    -
+  . 169.254.01-169.254.255.254
+    -APIPA
+    -v případě nedostupnosti DHCP přidělí OS (z jejího rozsahu)
+
+- přidělování:
+  .ručně
+  .dynamicky-DHCP
+  .OS-APIPA
+  
+- logické
+  .všechny IP adresy jsou logické
+
+ _IPv4
+- x.x.x.x
+- velikost 32bitů
+
+ _IPv6
+- 3EFFE:400:0:0:0:0:0:1
+- velikost 128bitů
+
+
+
+_převádění_
+
+[POZNÁMKA]
+- 01011011
+.můžeme zapsat: 1011011 ([0] před první jedničkou 
+                         se nemusí zapisovat)
+
+89   = 1011001    |   10110111	  = 183        
+127  = 1111111    |   01111111    = 127
+54   = 00110110   |   00110110    = 54
+21   = 10101      |   11111011    = 251
+165  = 10100101   |   10101010    = 170
+
+-při převodu na 2bitvou nepočítáme 0
+
+1010101111101
+=> 5501
+
+ 
+
+    |  Třídy  |  Maska  |  poč.bitů  |  výpočet  |  výsledek  |   začátek    |        příklad        |
+    |         |         |            |           |            |              |                       |
+A - |   0     |   0/8   |   24bit    |  2na24-2  |  +-16mega  |  začíná: 0   |    8:127.255.255.255  |
+B - |   10    |  10/16  |   16bit    |  2na16-2  |   65536    |  začíná: 10  |   16:192.168.255.255  |
+C - |   110   | 110/24  |    8bit    |  2na8-2   |    254     |  začíná: 11  |                       |
+
+
+
+
+_IP adresa počty_
+
+   net ID  |  host ID
+192.168. 0 |.10 /24     PK (počet klientů)
+255.255.255|.0          PK=2na8-2
+                        PK=254
+
+Adresa sítě  = vznikne tak že část host ID se vyplní [0]   -> 192.168.0.0
+Broad cast   = vznikne tak že část host ID se vyplní [1]   -> 192.168.0.255
+rozsah adres =     192.168.0.1 - 192.168.0.254
+
+_______________________________________
+
+
+-> 172.16.13.54 /16   PK=65 534
+
+B - 1010 1100 
+
+AS. = 172.16.0.0
+BC. = 172.16.255.255
+_______________________________________
+
+-> 192.168.0.129 /28->24+4    PK=2na4-2 
+                              PK=14
+C - 110|0 0000
+ 
+AS. = 192.168. 0 .1000|0000
+BC. = 255.255.255.1111|0000
+
+
+
+ rozsah = 192.168.0.10000000 -> .128  
+ rozsah = 192.168.0.10001111 -> .143
+_______________________________________
+
+-> 192.168.0.129 /26   
+         
+C - 110|0 0000
+
+AS. = 192.168.0.10|000000  -> .128
+BC. = 192.168.0.10|111111  -> .191
+
+rozsah = 192.168.0.129 - 192.168.0.143
+_______________________________________
+
+-> 10.192.10.10 /11     PK= 2na21-2
+                        PK= 2 097 150
+
+Class - B
+
+AS. = 10.192.0.0
+BC. = 10.223.255.255
+
+rozsah = 10.192.0.1 - 10.222.255.255
+_______________________________________
+
+-> 172.16.18.1 /19       PK=2na13-2
+                        PK=8 192
+
+10111100.00010000.000|10010.00000001
+
+Class - B
+
+AS. =172.16.0.0
+BC. =172.16.31.255 
+
+rozsah = 172.16.0.1 - 172.16.31.254
+_______________________________________
+
+-> 10.10.10.10 /13         PK=2na19-2
+                        PK=524 288
+
+00001010.00001|010.00001010.00001010
+
+
+class - A
+
+AS. = 10.8.0.0
+BC. = 10.15.255.255
+
+rozsah = 10.8.0.1 - 10.15.255.254
+_______________________________________
+
+//info
+
+- pracuje zde router a L3 switch
+
+ 
+
+
+
+
+
+  
+          
+   
+
