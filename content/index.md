@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Moje digitální zahrada
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Tohle pak dopíšu :D
