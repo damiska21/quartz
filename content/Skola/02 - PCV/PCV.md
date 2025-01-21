@@ -3,3 +3,6 @@ date: 2024-09-18T09:05
 tags:
   - 
 ---
+[[IOS vtipné věci]]
+
+[[VLAN]]

@@ -4,3 +4,4 @@ cssclasses:
 ---
 [[SIEM a Log management]]
 
+[[Řešení napadení]]

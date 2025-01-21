@@ -1,5 +1,7 @@
 ---
-title: Moje digitální zahrádka OwO
+title: Moje (defakto) digitální zahrádka a různý poznámky
 ---
 
-idk test systému
+## [[Skola]]
+[[Vrstvové modely- Home]]
+***
