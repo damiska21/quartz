@@ -6,3 +6,5 @@ tags:
 [[IOS vtipné věci]]
 
 [[VLAN]]
+
+[[IEEE 802.1X]]

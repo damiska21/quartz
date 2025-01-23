@@ -49,3 +49,12 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [],
 }
+
+Component.Graph({
+  localGraph: {
+    scale: 0.8, // default view scale
+  },
+  globalGraph: {
+    scale: 0.8,
+  },
+})

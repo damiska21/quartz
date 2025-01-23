@@ -10,3 +10,6 @@ title: Moje (defakto) digitální zahrádka a různý poznámky
 
 [[Fyzika - Home]]
 ***
+
+Angličtina-[[Přehled]]
+[[Frájina]]
