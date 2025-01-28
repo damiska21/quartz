@@ -2,12 +2,6 @@
 date: 2025-01-22T12:15
 zdroj: https://en.wikipedia.org/wiki/IEEE_802.1X
 ---
-## Zadání prezentace
-prezentace - protokol IEEE 802.1x 10 slajdů + zdroje úvod
-[IEEE 802.1X – Wikipedie](https://cs.wikipedia.org/wiki/IEEE_802.1X)
-- ověření
-- radius
-
 - protokol pracuje na [[2. Linková Vrstva]]
 - tento protokol preventuje fyzický útok připojení cizího zařízení do sítě a získat tak neoprávněný přístup k firmě např. pomocí lan turtelu
 - pomocí tohoto protokolu vyžaduje Wi-fi či kabel autentizaci do sítě (připojení k LAN nebo WLAN)
