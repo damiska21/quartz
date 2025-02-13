@@ -53,7 +53,7 @@ dir
 		- {jmeno_interfacu}
 		- {jméno_interfacu} switchport - podpobnosti o vlan
 		- status - popis a stav
-		- summary - sesznam + statistika přenosu
+		- summary - seznam + statistika přenosu
 		- stats - stats pro interfaces
 		- trunk - info o existujících truncích
 	- vlan - info o vlanech a přiřazení portů
@@ -61,3 +61,6 @@ dir
 	- arp - apr tabulka
 	- ip interface - acl a routování na interface
 	- ip route - směrovací tabulky
+
+8:
+[[Access Control List]]
