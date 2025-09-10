@@ -1,3 +1,0 @@
-[[Fyzika mikrosvěta]]
-
-[[Vlnová optika]]
