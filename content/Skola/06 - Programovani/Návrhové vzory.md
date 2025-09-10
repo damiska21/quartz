@@ -1,0 +1,24 @@
+---
+date: 2025-06-06T12:15
+cssclasses:
+---
+- knihovní třída
+	- nepotřebuje/nesmíme mít instanci
+	- třída, která shrnuje statické funkce/procedury
+- interface
+	- společné rozhraní tříd
+	- obsahuje hlavičky společných metod tříd, které ho implementují
+	- narozdíl od rozhraní třídy nemá public shit, nejde z něj nic volat
+- servant
+	- class na funkce/procedury, který si berou jako property ve tý funkci objekt interfacu a volá bez znalosti, která z těch tříd, který implementujou ten interface, to je.
+- singleton
+	- cíl je, aby se vytvořila pouze jedna instance
+	- privátní konstruktor, místo něj je funkce getInstance
+		- založí instanci pokud není, nebo vrátí již vytvořenou
+- enum
+- linked list
+- fasáda
+	- třída skrývá komplexitu tříd za fasádu jednoduchých tříd
+- builder
+- messenger/prostředník
+	- 

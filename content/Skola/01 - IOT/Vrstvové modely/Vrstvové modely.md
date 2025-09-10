@@ -1,0 +1,28 @@
+---
+date: ""
+---
+
+| [[TCP-IP]]                   | ISO/OSI                   |
+| ---------------------------- | ------------------------- |
+| [[Aplikační]]                | [[7. Aplikační vrstva]]   |
+| Aplikační                    | Prezentační               |
+| Aplikační                    | Relační                   |
+| [[Transportní Vrstva]]       | [[4. Transportní Vrstva]] |
+| [[Síťová Vrstva]]            | [[3. Síťová Vrstva]]      |
+| Vrstva Síťového rozhraní     | [[2. Linková Vrstva]]     |
+| [[Vrstva Síťového rozhraní]] | [[1. Fyzická Vrstva]]     |
+- 5. a 6. - nic zajímavýho, příprava dat pro 7. vrstvu
+
+- ISO/OSI
+	- teoretické znázornění komunikace
+	- jedná se o vrstevnatý model (protože má vrstvy, jako zlobři)
+	- každá vrstva má svůj účel a funkci
+- TCP-IP
+	- praktický model
+	- používá pouze protokoly
+		- jeden protokol pracuje na jedný vrstvě jakoby
+***
+
+![[01 - Oblasti/00 - Skola/01 - IOT/Vrstvové modely/img/schéma data.svg]]
+- poznámka - u 4. může být i port při TCP (myslim)
+
