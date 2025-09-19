@@ -4,7 +4,7 @@ cssclasses:
 ---
 
 - dva protokoly
-- TCP
-- UDP
+	- [[TCP]]
+	- [[UDP]]
 
 - šifrovací protokoly [[SSL]] a [[TLS]]

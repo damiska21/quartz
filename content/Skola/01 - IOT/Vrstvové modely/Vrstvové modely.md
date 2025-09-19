@@ -1,6 +1,7 @@
 ---
 date: ""
 ---
+nic
 
 | [[TCP-IP]]                   | ISO/OSI                   |
 | ---------------------------- | ------------------------- |
@@ -23,6 +24,6 @@ date: ""
 		- jeden protokol pracuje na jedný vrstvě jakoby
 ***
 
-![[01 - Oblasti/00 - Skola/01 - IOT/Vrstvové modely/img/schéma data.svg]]
+![[schemadata.svg]]
 - poznámka - u 4. může být i port při TCP (myslim)
 

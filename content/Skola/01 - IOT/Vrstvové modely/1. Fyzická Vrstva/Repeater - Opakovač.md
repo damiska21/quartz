@@ -5,9 +5,10 @@ tags:
 ---
 - nejprimitivnější aktivní zařízení
 - vstupuje kabel, vystupuje stejný typ kabelu
+- všechny ostatní aktivní prvky mají funkce repeateru
 #### Funkce
 - zesiluje a opravuje signál
 #### Kabely
-- TP, kroucená dvoulinka, optika
+- TP, [[kroucená dvoulinka]], [[Optický kabel]]
 #### Použití
 - pro dálkové spoje

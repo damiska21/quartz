@@ -23,10 +23,10 @@ III. část
 - literární / obecně kulturní kontext
 # Analýza neuměleckého textu
 I. část
-- souvislost mezy výňatky
+- souvislost mezi výňatky
 - hlavní myšlenka textu
 - podstatné a nepodstatné informace
-- růzené možné způsoby čtení a interpretace textu
+- různé možné způsoby čtení a interpretace textu
 - doměnky a fakta
 - komunikační situace (např. účel, adresát)
 II. část

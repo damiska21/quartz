@@ -6,3 +6,6 @@ tags:
 - spojuje 2 sítě
 - je nutný u spojení dvou různě velkých sítí
 	- 10.x.x.x <---> 192.168.0.x
+- převádí hlavičky rámců na hlavičky platné v druhé síti
+
+- má MAC tabulku

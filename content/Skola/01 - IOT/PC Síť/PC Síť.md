@@ -17,6 +17,15 @@ tags:
 - podle typu topologie
 	- [[peer to peer (p2p)]] - nemá žádný centrální prvek (server)
 	- [[Klient server (c-s)]] - má centrální prvek
+- rozdělení topologií sítí
+	- [[Bus]]
+	- [[Ring]]
+	- [[Star]]
+	- [[Extended star]]
+- podle topologie
+	- logická
+	- fyzická
+	- signálová
 - podle užití
 	- korporátní/firemní
 	- domácí/malé kanceláře
@@ -30,12 +39,3 @@ tags:
 	- MAN - mentropolitní/městská area network
 	- WAN - wide area network
 		- prakticky celý internet
-- rozdělení topologií sítí
-	- [[Bus]]
-	- [[Ring]]
-	- [[Star]]
-	- [[Extended star]]
-- podle topologie
-	- logická
-	- fyzická
-	- signálová

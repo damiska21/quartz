@@ -8,3 +8,4 @@ tags:
 - nejprimitivější zařízení na rozbočování kabelu
 - kopíruje příchozí signál na všechny přípojky
 	- na zařízení, kde není signál určen signál zaniká
+- vznik kolizí
