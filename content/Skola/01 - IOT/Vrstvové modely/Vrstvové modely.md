@@ -1,7 +1,6 @@
 ---
 date: ""
 ---
-nic
 
 | [[TCP-IP]]                   | ISO/OSI                   |
 | ---------------------------- | ------------------------- |
@@ -25,5 +24,5 @@ nic
 ***
 
 ![[schemadata.svg]]
-- poznámka - u 4. může být i port při TCP (myslim)
 
+![[Vrstvové modely mindmap.svg]]
