@@ -1,6 +1,5 @@
 ---
-date: 2025-09-16T13:29
-cssclasses:
+foldernote: true
 ---
 
 - [[Maturita]]

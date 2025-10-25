@@ -1,0 +1,55 @@
+---
+date: 2025-10-04T16:48
+cssclasses:
+---
+# Dynamické stránky
+Dynamická webová stránka je druh webové stránky, jejíž obsah byl vygenerován aktuálními informacemi pro každé individuální zobrazení. Nejedná se o statickou webovou stránku, neboť **její obsah se mění v závislosti na čase** (např. blog), **uživateli** (např. přihlášení uživatele pomocí session), **uživatelské interakci** (např. online počítačová hra), 
+kontextu (např. přizpůsobení pomocí parametrů) nebo jakékoli kombinaci předchozího.
+Klient server architektura
+
+## Skriptování a vytváření obsahu na straně klienta
+-	využíváno pro změnu obsahu webové stránky tak, že příslušný kód je uvnitř webové stránky a reaguje na události generované z klávesnice nebo myši.
+-	V tomto případě dynamické chování spočívá v uživatelském rozhraní.
+-	Pro zpracování a uspořádání různých typů médií (zvuk, animace, měnící se text, ...) se používají skriptovací jazyky na straně klienta jako **JavaScript** nebo ActionScript.
+
+## Skriptování a vytváření obsahu na straně serveru
+-	Pro skriptování a vytváření obsahu na straně serveru je používán program běžící na serveru (skriptování na straně serveru) pro změnu webového obsahu na různých webových stránkách či pro uspořádání nebo znovunačtení webových stránek.
+-	Odpovědi od serveru mohou být závislé na POST datech, parametrech v URL, typu použitého webového prohlížeče, čase nebo stavu databáze či serveru.
+-	Používané jazyky:
+    - C# (ASP) 
+    - PHP
+    - Ruby
+    - frameworkový JavaScript (NodeJS)
+    - Perl 
+-	Výhody:
+    - Z důvodu skrytí zdrojového kódu aplikací koncovému uživateli je upřednostňováno programování na straně serveru. Tato metoda bývá často přijata z důvodu **zvýšení bezpečnosti** webových stránek a z důvodu zabránění zkopírování zdrojového kódu jinými webovými vývojáři.
+    - Menší výpočetní výkon na straně klienta
+-	Nevýhody:
+    - Soukromější obsah(databáze), uložený na serveru, je méně viditelný pro internet, a proto se i **hůře vyhledává**.
+  
+## Kombinování stran klienta a serveru
+- AJAX je technologie vývoje webových stránek pro dynamickou výměnu obsahu se stranou serveru bez nutnosti znovunačíst webovou stránku. Příkladem webových aplikací používající AJAX technologii a databázi jsou Google mapy.
+
+## Formulář
+- form - Párový tag. Uzavírá skupinu ovládacích polí do jednoho formuláře, který bude najednou odeslán.
+- Action obvykle míří na nějaký CGI skript nebo PHP nebo ASP. Není-li uvedeno, odešlou se data téže stránce.
+- Metody:
+  - GET
+    - Říká, že se data budou předávat jako součást URL, tedy v řádku adresy.
+  - POST
+    - Zabalí odesílaná data a odesílá je nezávisle, takže nejsou vidět.
+    - Vhodné použít u delších formulářů.
+- Následuje popis vstupních polí formuláře. Dělají se pomocí tagů \<input>, \<select> a \<textarea>. Tyto musejí být umístěny v elementu \<form>, ale navíc mohou být třeba i v tabulce. Popisky vstupních polí se dělají normálním textem kolem nich.
+- Příklad:
+  ```HTML
+  <form action="skript.php" method="get">
+    <input type="text" name="parametr" value="hodnota">
+    <input type="submit" value="odeslat">
+  </form>
+
+  <input type="submit">
+  ```
+- Odesílací tlačítko ve formuláři funguje tak, že po kliknutí na něj přejde prohlížeč na další stránku, která je definována v atributu action u nadřazeného tagu `<form>`. Zároveň se do té další stránky "přibalí" informace z jiných políček formuláře. (Metoda přibalení závisí na atributu method u form.)
+
+## Databáze
+- Databáze (neboli datová základna, též databanka) je systém souborů s pevnou strukturou záznamů. Tyto soubory jsou mezi sebou navzájem propojeny pomocí klíčů. V širším smyslu jsou součástí databáze i softwarové prostředky(např. dotazovací jazyk SQL), které umožňují manipulaci s uloženými daty a přístup k nim.

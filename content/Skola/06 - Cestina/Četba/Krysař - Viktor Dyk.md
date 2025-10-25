@@ -21,7 +21,7 @@ Viktor Dyk
 Buřičská literatura
 - český literární směr přelomu 19. a 20. století
 - vystupuje proti hospodářskému růstu a společenskému pohybu
-- myšlenky satanismu, dekadence a anarhismu
+- myšlenky satanismu, dekadence a anarchismu
 - vedli bohémský/tulácký styl života
 - antimilitární, zájem o sociální otázky
 Další autoři

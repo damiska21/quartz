@@ -4,7 +4,7 @@ cssclasses:
 ---
 - internet message access protocol
 - poslední verze IMAP4
-- synchronizuje poštu mezi pc a serverem
+- synchronizuje poštu mezi poštovním klientem a serverem
 	- synchronizují se pouze hlavičky mailů
 	- synchronizují se pouze složky new a cur, další se dají nastavit
 - pro přečtení je nutný přístup k internetu

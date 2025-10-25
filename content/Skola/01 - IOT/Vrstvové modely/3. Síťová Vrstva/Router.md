@@ -14,6 +14,7 @@ tags:
 - vytváří podsítě
 - routování probíhá
 	- staticky - jednotlivé záznamy dělá admin manuálně
+		- do routovací tabulky se vpisují nepřímo připojené podsítě a výchozí brána pryč ze sítě
 	- dynamicky - routování na základě routovacího protokolu
 ### Protokoly
 [[Protokol RIP]]

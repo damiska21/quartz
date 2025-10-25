@@ -18,7 +18,7 @@ Robinson Crusoe - Daniel Defoe
 ### SVĚTOVÁ LITERATURA 20. A 21. STOLETÍ - MINIMÁLNĚ 4 TITULY
 [[Malý Princ - Antoine de Saint-Exupéry]]
 [[Deník Anne Frankové]]
-[[Stařec a moře - Ernest Hemingway]] 
+[[Stařec a moře - Ernest Hemingway]]
 [[Bílý tesák - Jack London]]
 [[1984 - George Orwell]]
 Farma Zvířat - George Orwell 
@@ -32,4 +32,4 @@ Hobit aneb cesta tam a zase zpátky
 Edison - Vítězslav Nezval
 
 
-https://sposdk.cz/wp-content/uploads/2024/09/Seznam-cetby-2024-25.pdf
+https://sposdk.cz/wp-content/uploads/2025/10/Seznam-cetby-2025-26.pdf

@@ -3,41 +3,45 @@ date: 2024-09-16T20:27
 tags: 
 cssclasses: []
 ---
+
+
+- 32 bitů dohromady, 4 oktety
 ## Protokol IP
 - část rodinných protokolů TCP/IP
 	- IP pracuje na L3
 	- [[TCP]] na L4
 - má na starost: adresaci síťových zařízení pomocí IP
-## IP adresa
+## Dělení
 - verze
 	- [[IPv4]]
 	- [[IPv6]]
 - dle umístění
 	- privátní
-		- nevhodné k použití
+		- nevhodné k použití 
 		- v lokálních sítích
-		- můžou se opakovat v různých lokálních sítích, nikoliv v jedné
+		- v rámci jedné sítě jedinečná
+			- můžou se opakovat v různých lokálních sítích, nikoliv v jedné
 	- veřejné
 		- pouze v internetu
 		- v rámci internetu je každá jedinečná
 		- přístupné odkudkoliv na světě
 		- číslování veřejných serverů a routerů
+
 ### Vlastnosti
 - jedinečnost
 - v rámci sítě musí být zachována třída, aby byla zachována komunikace
-- maska (vždy svázaná)
-
+- **logická** adresa, napevno svázaná s maskou sítě
+- z pohledu síťového adaptéru vázána i na MAC adresu
 #### Speciální (vyhrazené) IP
 0.0.0.0 - defaultní route, požadavek na adresu od DHCP
 127.0.0.255 - loopback
 169.254.0.1 - 169.254.255.254 - APIPA (Automatic Private IP Adressing)
 	když je nedostupné DHCP, OS přidělí jednu IP z APIPI
-##### Přidělování
+### Přidělování
 - ručně: přiděluje admin sítě
 - dynamicky: DHCP
 - OS - APIPA
 
-- všechny IP adresy jsou LOGICKÉ
 
 
 ![[maska.svg]]
