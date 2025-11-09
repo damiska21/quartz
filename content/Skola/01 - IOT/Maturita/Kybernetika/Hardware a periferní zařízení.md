@@ -7,3 +7,4 @@ cssclasses:
 - [[Procesor]]
 - [[Grafická karta]]
 - [[Paměť]]
+- [[Zdroj]]

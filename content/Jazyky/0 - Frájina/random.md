@@ -5,7 +5,12 @@ cssclasses:
 - slova, který se doslova používají úplně stejně jako český a anglicky se používají úplně jinak
 	- le courrier - pošta - anglicky mail, courier, letters
 	- dommage - škoda - anglicky damage, what a pity ...
+	- cher - drahý - expensive, dear, beloved
 
-- pletou se mi
-	- emprunter - to borrow
-	- emporter- to take, to take away
+- slova, co se mi pletou
+    - foyer (home, household) - loyer (rent)
+    - emprunter (to borrow) - emporter (to take, to take away)
+    - sein (breast) - sain (health)
+
+- slova, který dávají 0 kurva smyslu
+	- la chair - flesh

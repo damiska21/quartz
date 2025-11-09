@@ -17,25 +17,25 @@ cssclasses:
 - Serverové a desktopové operační systémy
 - Bezpečnost operačních systémů z pohledu kybernetiky 
 - Bezdrátová komunikace a její zabezpečení
-- [[Hardware a periferní zařízení]] 
+- [[Hardware a periferní zařízení]]
 - Aktivní a pasivní síťové prvky 
 - [Síťové vrstevnaté modely](Vrstvové%20modely)
 - Základy počítačových sítí
 - [[Bezpečnost v sítích]] - **nedodělané**
-- IP adresace
+- [IP adresace](IP%20adresa)
 - [Segmentace počítačových sítí](VLAN)
 - [[Aplikační protokoly v sítích]]
 
 # Programování a vývoj aplikací - 20
-- [[Webové prezentace ve formátu HTML5]] 
-- Využívání CSS v kombinaci s HTML 
+- [[Webové prezentace ve formátu HTML5]]
+- [[Využívání CSS v kombinaci s HTML]]
 - [[Dynamické webové stránky ]]
 - Základní pojmy v oblasti robotiky 
 - IoT (programování, bezpečnost a jednotlivé části IoT) 
 - Úvod do programování robotů 
 - Softwarová a hardwarová výbava robota 
-- [[Databáze]] 
-- [[SQL databáze]] 
+- [[Databáze]]
+- [[SQL databáze]]
 - Základy algoritmizace 
 - Jazyk C# - základní struktury a principy, datové typy a proměnné 
 - [[Principy OOP]] – třída, objekt, skládání, dědění, zapouzdření, delegování a polymorfizmus 

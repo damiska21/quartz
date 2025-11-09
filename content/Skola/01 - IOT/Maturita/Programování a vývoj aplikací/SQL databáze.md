@@ -8,7 +8,7 @@ cssclasses:
 - vymyšlený v 70. létech
 - jeho předchůdcem byli ISAM a VSAM
 	- výhody nad nimi
-		- dokáže jedním příkazem přistupovat k datům z několika tabulek§
+		- dokáže jedním příkazem přistupovat k datům z několika tabulek
 
 - deklarativní jazyk 4. generace s elementy procedurálního jazyka
 	- deklarativní - řekneš, co chceš, bez definování jak to má sehnat

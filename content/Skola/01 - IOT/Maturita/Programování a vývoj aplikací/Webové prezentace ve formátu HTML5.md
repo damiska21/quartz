@@ -80,25 +80,6 @@ cssclasses:
 - Buď ji validátor sám opraví, nebo to musíte přepsat vy. (Záleží na validátoru)
 - [W3C validátor](https://validator.w3.org/)
 
-## CSS Styly
-
-### Zápis
-- Přímý styl - Styl zapisujeme přímo jako atribut elementu - style=""
-- Stylopis - Do hlavičky dokumentu se napíše stylopis uzavřený mezi tagy `<style>``</style>`
-- Soubor
-	- Vytvoří se soubor, který se pojmenuje třeba `styly.css`:
-	```css
-	p {color: red}
-	```
-	Do hlavičky html dokumentu, který chci stylem ovlivnit, musím napsat odkaz na tento soubor:
-	```html
-	<link rel="stylesheet" type="text/css" href="styly.css">
-	```
-
-### CSS preprocesory
-- CSS preprocesor je nástroj, který vám ze zdrojového kódu zapsaného ve vlastní syntaxi vygeneruje CSS pro prohlížeč
-- SASS, LESS a Stylus
-
 ## Reference
 * [Jak psát web - HTML, CSS, JS](https://www.jakpsatweb.cz/) (cs)
 * [W3Schools - HTML, CSS, JS, XML, SQL, PHP, ...](https://www.w3schools.com/) (en)

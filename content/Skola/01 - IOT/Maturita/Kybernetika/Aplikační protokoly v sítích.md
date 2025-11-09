@@ -11,4 +11,4 @@ cssclasses:
 - [[FTP]]
 - [[HTTP - hyper text transfer protocol]]
 - DHCP
-- [[DNS]]
+- [[01 - Oblasti/00 - Skola/01 - IOT/Vrstvové modely/4. Transportní Vrstva/DNS]]

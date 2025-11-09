@@ -5,6 +5,7 @@ cssclassescs:
 datetest:
 ---
 - Domain Name System
+- realizovaný pomocí DNS serverů 
 - překládá doménové jméno na ip adresu
 - internet i local
 
@@ -38,6 +39,8 @@ datetest:
 ## Řazení
 1) root name servery
 	- je jich 13, označené A - M
+	- spadají do top level domain
+	- obsahují všechny záznamy překladu 
 2) autoritativní servery
 	- registrátory, webhosty, datová centra
 3) rekuzivní servery

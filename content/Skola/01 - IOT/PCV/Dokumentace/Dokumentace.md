@@ -5,6 +5,9 @@ cssclasses:
 [[Instalace Win]]
 [[Nastavení ADDS]]
 [[Nastavení ip a domény]]
+[[Nastavení DHCP]]
+[[Custom nastavení klienta]]
+[[Sdílené složky]]
 ## Vypnout firewall v klientu 
 
 Firewall v programu Windows Defender -> Zapnout nebo vypnout firewall v programu windows defender![[Snímek obrazovky 2025-09-22 090610.png]]

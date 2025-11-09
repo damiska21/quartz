@@ -18,10 +18,10 @@ Robinson Crusoe - Daniel Defoe
 ### SVĚTOVÁ LITERATURA 20. A 21. STOLETÍ - MINIMÁLNĚ 4 TITULY
 [[Malý Princ - Antoine de Saint-Exupéry]]
 [[Deník Anne Frankové]]
-[[Stařec a moře - Ernest Hemingway]]
+[[Stařec a moře - Ernest Hemingway]] 
 [[Bílý tesák - Jack London]]
 [[1984 - George Orwell]]
-Farma Zvířat - George Orwell 
+Farma Zvířat - George Orwell
 [[O myších a lidech - John Steinbeck]]
 
 Hobit aneb cesta tam a zase zpátky

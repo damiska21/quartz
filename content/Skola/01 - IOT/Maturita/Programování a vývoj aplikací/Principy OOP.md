@@ -2,6 +2,8 @@
 date: 2025-10-05T11:21
 cssclasses:
 ---
+
+třída, objekt, skládání, dědění, zapouzdření, delegování a polymorfizmus
 # Objektové orientované programovaní
 * V rámci úlohy se identifikují objekty
 * Každý objekt má svoje vlastnosti a metody
@@ -9,7 +11,7 @@ cssclasses:
 
 ## 3 základní vlastnosti
 
-
+ 
 ### Obalení (Zapouzdření)
 * Vyjadřuje schopnost objektu spojit v jeden celek data a metody
 * Ukrytí vnitřní struktury objektu

@@ -65,8 +65,12 @@ cssclasses:
 - Zaznamenání dat již při výrobě, nelze je měnit
 - **ROM** – Naprogramovaná již ve výrobě, nelze ji vymazat ani znovu naprogramovat
 - **PROM** – Lze ji naprogramovat po výrobě (pouze 1x)
+	- koupíš si prázdný čip a sám si ho naprogramuješ
 - **EPROM** – Lze ji vymazat UV světlem a naprogramovat znovu
-- **EEPROM** – Lze ji vymazat přivedeným napětí napětí a naprogramovat znovu
+- **EEPROM** – Lze ji vymazat přivedeným napětí a naprogramovat znovu
+	- electric erase programmable read only memory
+- FLASH
+- CMOS - bios, jde měnit pouze část, ve které jsou některá nastavení
 - CD-ROM (RW) – 650 MB, 700 MB
 - DVD-ROM (RW+, RW-, RAM) – 4,7 GB, 9,4 GB, 18,8 GB; + lakované, odolnější proti oděrům
 - Data jsou uspořádána do spirály
@@ -77,8 +81,17 @@ cssclasses:
 - Paměť s náhodným přístupem
 - Umožňuje čtení i zápis
 - Po přerušení napájení ztráta dat
+- dělení
+	- static - data, co tam uložíš tam zůstanou do shutdownu
+	- dynamic - data musíš periodicky obnovovat aby tam zůstali
+- čipy
+	- SIMM
+		- single in line
+	- DIMM
+		- double in line (ověřit)
 - Data je potřeba obnovovat
 
+- kapacita, časování, frekvence, uložení čipu (SIMM/DIMM)
 ## Formáty paměťových modulů
 - **DIMM** - Slot pro desktop
 - **SO-DIMM** - Slot pro notebooky
@@ -86,6 +99,7 @@ cssclasses:
 ## Generace RAM
 - **SDRAM** – 133 MHz (RAM pro PC)
 - **DDR** – 266 MHz (RAM pro PC)
+	- zápis je při downsignálu nevim jak bych to řekl, to zdvojnásobuje rychlost proti SDRAM
 - **DDR2** – 800 MHz (RAM pro PC)
 - **DDR3** – 1033 MHz, hodinový zápis je rychlejší
 - **DDR4** – 2133-3200 MHz
