@@ -16,7 +16,7 @@ cssclasses:
 - Organizace a týmy zapojené do kybernetické bezpečnosti
 - Serverové a desktopové operační systémy
 - Bezpečnost operačních systémů z pohledu kybernetiky 
-- Bezdrátová komunikace a její zabezpečení
+- [[Bezdrátová komunikace a její zabezpečení]]
 - [[Hardware a periferní zařízení]]
 - Aktivní a pasivní síťové prvky 
 - [Síťové vrstevnaté modely](Vrstvové%20modely)
@@ -45,8 +45,8 @@ cssclasses:
 - WinForms – standardní ovládací prvky 
 - C# a události tříd, přidání reference na obslužnou metodu, tvorba obslužných metod. 
 - Vývojové prostředí BlueJ – Tvorba tříd, vztahy mezi třídami, tvorba dokumentace, volání statických a nestatických metod, užití příkazového panelu. Jednosměrný uzlový seznam. 
-- Návrhové vzory - Utility, Singleton + tovární metoda, Enum. 
-- Návrhové vzory - Interface – Servant, Generické třídy, Messenger.
+- [[Návrhové vzory - Utility, Singleton + tovární metoda, Enum. ]]
+- [[Návrhové vzory - Interface – Servant, Generické třídy, Messenger.]]
 
 # Praktická část MZ - 15
 - Zabezpečení počítačové sítě P2P

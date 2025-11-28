@@ -6,14 +6,15 @@ cssclasses:
 - Komponenty se připojují pomocí slotů (Grafika, paměť RAM), konektorů (Disk, Optická mechanika) nebo patice (CPU)
 - Na základní desce je umístěná paměť ROM (EEPROM), ve které je uložen systém **BIOS**/**UEFI**, používá se při startu počítače pro inicializaci a konfiguraci připojených hardwarových zařízení a následnému spuštění operačního systému, kterému je pak předáno další řízení počítače
 - Vybíráme podle: velikosti skříně, procesoru, slotu pro paměti, napajeci faze (taktovani), parametrů sběrnice
+- vstupní/výstupní konektory - USB, síťová karta, HDMI, D-SUB, 
 
 ### Patice (socket - patice pro součástku)
 - **Socket** - Místo, kam se připojuje procesor
 	- **Pin grid array (PGA)** `AMD` - **krátké piny** procesory jsou uspořádány do čtvercového pole tak, aby souhlasily s otvory v patici
 	- **Land grid array (LGA)** `Intel` - pracuje s dotykem **kontaktních plošek**. 
-	- **Ball grid array (BGA)** - Kuličky cínu se při zahřátí horkým vzduchem nebe infračervenou lampou roztaví a vytvoří tak kontakt mezi plošným spojem a integrovaným obvodem
+	- nevědět - **Ball grid array (BGA)** - Kuličky cínu se při zahřátí horkým vzduchem nebe infračervenou lampou roztaví a vytvoří tak kontakt mezi plošným spojem a integrovaným obvodem
 
-### Slot (konektor pro přímé připojení desky s plošným spojem)
+###  Slot (konektor pro přímé připojení desky s plošným spojem)
 - **DIM/SO-DIM** - připojení RAM paměti
 - **AGP** (3.3V, 1.5V, Universal, Pro 3.3V, Pro 1.5V, Pro Universal) – slot pro grafiku (Starší)
 - **PCIe** x1, x4, x8, x16 – sběrnice (x16 se používá pro připojení grafiky)
@@ -30,3 +31,7 @@ cssclasses:
 		- realizuje pomalejší funkce MB v architektuře se severním a jižním můstkem (USB, Ethernet, SATA, PCI) 
 - Intel – integrovaný v MB (Severní můstek nově integrovaný na Procesoru)
 - AMD – severní můstek integrovaný v CPU, jižní můstek umístěný na MB
+
+- jednotlivé periferie a komponenty jsou řízené vlastními instrukcemi 
+
+![[VNEUMAN.jpeg]]

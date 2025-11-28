@@ -6,9 +6,19 @@ cssclasses:
 - Integrovaný nebo zapojený v socketu
 - Skládá se ze dvou základních částí: **Aritmetickologické jednotky** (provádí výpočty), **Řadič** (komunikuje s ostaními komponentami)
 - Výrobci: `AMD (PGA - Piny), Intel (LGA - Kontaktní destičky), Qualcom, Broadcom, Apple, HiSillicon, Rockchip, Texas instruments`
-- Frekvence u moderních desktopových procesoru se běžně udává v GHz
+- důležité parametry
+	- Frekvence u moderních desktopových procesoru se běžně udává v **GHz**
+	- počet jader
+	- počet vláken
 - Napájení: 4pin (+ 4pin)
 
+- hyperthreading
+	- povoluje jednomu jádru fungovat jako dvě virtuální
+- hypertransport - pouze AMD
+	- vysoká rychlost komunikace mezi hardwarem za účelem nízké latence
+	- (amd je spíše na videohry, nižší latenci chceš na klikání hlav :D)
+- multitasking
+	- procesor je schopný zpracovávat několik procesů najednou
 ### Instrukční sady
 - Instrukční  sada  je  seznam  všech  instrukcí  a  jejich  variant,  které  dokáže  procesor  identifikovat  a  vykonat
 - **RISC** – redukovaná instrukční sada (optimalizovaná sada strojových instrukcí)

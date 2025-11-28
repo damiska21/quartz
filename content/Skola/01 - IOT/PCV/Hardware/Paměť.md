@@ -4,21 +4,27 @@ cssclasses:
 ---
 # Pevný disk
 - Paměťové zařízení s nejvyšší kapacitou v PC
-- Jsou na něm uložena všechna data, programy, dokumenty,..
+- Jsou na něm uložena všechna +data, programy, dokumenty,..
+![[proxy-image.jpg]]
+### Dělení
+- jak disk funguje
+	- elektronický
+		- SSD
+	- mechanický
+		- HDD
+		- SSHDD - hybridní disk
+			- 
 - Rozhraní
-	- PATA (IDE, ATA) – dnes se již překonán, paralerní přenos
-		- Napájení: MOLEX
 	- SATA (I, II, III) - sériový přenos
 		- Napájení: SATA power (standard, slimline, micro)
 	- eSATA (eSATAp)
-	- M.2 SATA (SATA sběrnice)
-	- M.2 NVMe (využívá PCIe sběrnici)
-	- SCSI - paralerní pro servery, vysokootáčkové HDD (10 000, 15 000 ot/min), již se téměř nepoužívá (přechod na SATA)
-	- SAS - sériový pro servery (původně náhrada za SCSI), vysokootáčkové HDD, používá se minimálně - nahrazen SATA
+	- M.2
+		- SATA (SATA sběrnice)
+		- NVMe (využívá PCIe sběrnici)
+	- PCIe
 - Velikost
 	- 2.5" - notebooky
 	- 3.5" - desktopové a tower skříně, skříně do racku
-	- 1,8" - přenosná zařízení (MicroSATA rozhraní) - vytlačen SSD
 - RAIDová pole
 	- RAID 0 (stripping)
 		- Jedná se o součet kapacit všech disků (1TB + 1TB => 2TB)

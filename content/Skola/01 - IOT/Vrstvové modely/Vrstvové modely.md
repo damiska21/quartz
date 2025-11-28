@@ -4,7 +4,7 @@ date: ""
 
 | [[TCP-IP]]                   | ISO/OSI                   |
 | ---------------------------- | ------------------------- |
-| [[Aplikační]]                | [[7. Aplikační vrstva]]   |
+| [[Aplikační]]                | [[7. Aplikační Vrstva]]   |
 | Aplikační                    | Prezentační               |
 | Aplikační                    | Relační                   |
 | [[Transportní Vrstva]]       | [[4. Transportní Vrstva]] |
