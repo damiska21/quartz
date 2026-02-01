@@ -10,7 +10,7 @@ tags:
 - síť používá pracovní skupinu
   
 - typy kabelů (tenký/tlustý koaxiální, kroucená dvoulinka, optická vlákna)
-- použité topologie([[Bus]], [[Ring]], [[Star]])
+- použité topologie ([[Bus]], [[Ring]], [[Star]])
 #### Výhody
  levná, jednoduchá na (správu, vytvoření)
 #### Nevýhody

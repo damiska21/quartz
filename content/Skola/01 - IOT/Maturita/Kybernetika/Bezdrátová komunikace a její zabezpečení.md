@@ -29,6 +29,8 @@ cssclasses:
 
 # Hardware
 ## antény
+- účinnost antény se uvádí v dB
+
 - směrová anténa (yagi anténa)
 	- vyzařuje úzké pásmo em vln
 	- na dlouhé vzdálenosti (15-20 km)
@@ -38,3 +40,26 @@ cssclasses:
 - všesměrové
 	- vysílá do všech směrů
 	- wifi antény
+
+## Kabeláž
+- používá se pro napájení, popř. připojení antén
+- [[kroucená dvoulinka]], v kombinaci s POE - power over ethernet
+- připojení antén pomocí koaxálního kabelu
+### Konektory
+- RJ-45
+- RSMA konektor (na antény) - na televizích přes satelit
+	- male/female
+
+## Bezdrátové síťové karty
+- interní
+	- PCI-e 1x
+- externí
+	- USB
+
+- aktivní síťové prvky
+	- Access point
+	- bezdrátový router
+
+- bezdrátová síť wi-fi
+	- 2,4, 5, 6, 7 Ghz
+	- bezlicenční

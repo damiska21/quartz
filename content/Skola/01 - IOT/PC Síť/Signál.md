@@ -18,3 +18,6 @@ BTS
 
 
 modem = modulace, demodulace
+
+vědět a b g n
+rychlost a pásmo

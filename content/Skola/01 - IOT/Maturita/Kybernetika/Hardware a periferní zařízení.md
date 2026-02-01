@@ -29,7 +29,7 @@ cssclasses:
 - dokáže tisknout několik kopií najednou
 ### Inkoustové
 - deskjet
-	- inkoust vytriskává tím, že se inkoust zahřeje a tím zvětší a chce se vytlačit ykwim
+	- inkoust vytryskává tím, že se inkoust zahřeje a tím zvětší a chce se vytlačit ykwim
 - bubblejet / inkjet
 	- piezo elektrický krystal
 #### Výhody
@@ -49,13 +49,15 @@ cssclasses:
 	 - kovové částečky
 #### Výhody
 - rychlost
-- relativně levnáí
+- relativně levná
 #### Nevýhody
 - zapékání pryskyřice některým lidem smrdí
 
 ### Termální tiskárna
 - tryska fouká teplý vzduch na speciální papír, který v tom místě ztmavne
 - jediný bod poruchy je tisková hlava
+
+- účtenky
 #### Výhody
 - rychlá
 - levná

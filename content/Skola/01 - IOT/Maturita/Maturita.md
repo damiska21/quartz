@@ -1,11 +1,12 @@
 ---
 date: 2025-10-03T09:00
 cssclasses:
+tags:
 ---
 - něco je kradený z https://github.com/vofy/Maturita
-- 4,5 dne na otázku když začnu teď
+- kde je napsaný čas tam jsem si dělal testovací přednes a nedalo mi to
 # Kybernetická bezpečnost - 20
-- [[Základy kybernetické bezpečnosti]] - **nedodělané**
+- [[Základy kybernetické bezpečnosti]] - *done*
 - Bezpečnost na internetu a v lokálních sítích
 - Kybernetické hrozby a ochrana proti nim
 - Revitalizace počítačové sítě
@@ -17,36 +18,36 @@ cssclasses:
 - Serverové a desktopové operační systémy
 - Bezpečnost operačních systémů z pohledu kybernetiky 
 - [[Bezdrátová komunikace a její zabezpečení]]
-- [[Hardware a periferní zařízení]]
-- Aktivní a pasivní síťové prvky 
+- [[Hardware a periferní zařízení]] - *done*
+- [[Aktivní a pasivní síťové prvky]] 
 - [Síťové vrstevnaté modely](Vrstvové%20modely)
-- Základy počítačových sítí
+- [[Základy počítačových sítí]] - 8 minut
 - [[Bezpečnost v sítích]] - **nedodělané**
 - [IP adresace](IP%20adresa)
-- [Segmentace počítačových sítí](VLAN)
+- [Segmentace počítačových sítí](VLAN) - **absolutně kriminálně málo textu**
 - [[Aplikační protokoly v sítích]]
 
 # Programování a vývoj aplikací - 20
-- [[Webové prezentace ve formátu HTML5]]
-- [[Využívání CSS v kombinaci s HTML]]
-- [[Dynamické webové stránky ]]
+- [[Webové prezentace ve formátu HTML5]] - **nedodělané**
+- [[Využívání CSS v kombinaci s HTML]] - **nedodělané**
+- [[Dynamické webové stránky ]] - **nedodělané**
 - Základní pojmy v oblasti robotiky 
 - IoT (programování, bezpečnost a jednotlivé části IoT) 
 - Úvod do programování robotů 
 - Softwarová a hardwarová výbava robota 
-- [[Databáze]]
-- [[SQL databáze]]
+- [[Databáze]] - **nedodělané**
+- [[SQL databáze]] - **málo textu**
 - Základy algoritmizace 
 - Jazyk C# - základní struktury a principy, datové typy a proměnné 
-- [[Principy OOP]] – třída, objekt, skládání, dědění, zapouzdření, delegování a polymorfizmus 
+- [[Principy OOP]] – třída, objekt, skládání, dědění, zapouzdření, delegování a polymorfizmus  - **nedodělané**
 - Atributy třídy, modifikátory přístupu k atributům, přístup k atributům pomocí vlastností tříd. 
 - Konstruktor třídy, přetížené konstruktory, konstruktor s parametrem a bezparametrický 
 - Metody tříd - návratový typ, parametry, modifikátory přístupu. 
 - WinForms – standardní ovládací prvky 
 - C# a události tříd, přidání reference na obslužnou metodu, tvorba obslužných metod. 
 - Vývojové prostředí BlueJ – Tvorba tříd, vztahy mezi třídami, tvorba dokumentace, volání statických a nestatických metod, užití příkazového panelu. Jednosměrný uzlový seznam. 
-- [[Návrhové vzory - Utility, Singleton + tovární metoda, Enum. ]]
-- [[Návrhové vzory - Interface – Servant, Generické třídy, Messenger.]]
+- [[Návrhové vzory - Utility, Singleton + tovární metoda, Enum. ]] - **nedodělané**
+- [[Návrhové vzory - Interface – Servant, Generické třídy, Messenger.]] - **nedodělané**
 
 # Praktická část MZ - 15
 - Zabezpečení počítačové sítě P2P

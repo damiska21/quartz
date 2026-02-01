@@ -9,7 +9,7 @@ chybí mi 2 české literatury 20.-21. stol.
 
 ### SVĚTOVÁ A ČESKÁ LITERATURA DO KONCE 18. STOLETÍ - MINIMÁLNĚ 2 TITULY
 [[Romeo a Julie - William Shakespeare]]
-Robinson Crusoe - Daniel Defoe
+[[Robinson Crusoe - Daniel Defoe]]
 
 ### SVĚTOVÁ A ČESKÁ LITERATURA 19. STOLETÍ - MINIMÁLNĚ 3 TITULY
 [[Oliver Twist - Charles Dickens]]

@@ -37,3 +37,4 @@ END $$;
 	- definování dat
 		- vytváření schém tabulek a jejich modifikace
 	- kontrola přístupu k datům
+		- přihlašování do správce tabulek, každý správce má práva na jiné tabulky např.

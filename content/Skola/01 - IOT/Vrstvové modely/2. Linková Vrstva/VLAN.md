@@ -12,6 +12,7 @@ cssclasses:
 ### Tagování
 - tagovaná vlana
 	- pokud se síť bude dál větvit
+	- do dalších switchů
 - netagovaná
 	- do koncového zařízení
 	- 

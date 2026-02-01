@@ -12,6 +12,8 @@ cssclasses:
     - foyer (home, household) - loyer (rent)
     - emprunter (to borrow) - emporter (to take, to take away)
     - sein (breast) - sain (health)
+    - tenir (to hold, to keep) - tirer (to draw (a sword))
+    - siége (seat, chair) - piége (trap) 
 
 - slova, který dávají 0 kurva smyslu
 	- la chair - flesh

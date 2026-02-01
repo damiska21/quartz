@@ -8,7 +8,7 @@ date: ""
 | Aplikační                    | Prezentační               |
 | Aplikační                    | Relační                   |
 | [[Transportní Vrstva]]       | [[4. Transportní Vrstva]] |
-| [[Síťová Vrstva]]            | [[3. Síťová Vrstva]]      |
+| [[Internetová Vrstva]]            | [[3. Síťová Vrstva]]      |
 | Vrstva Síťového rozhraní     | [[2. Linková Vrstva]]     |
 | [[Vrstva Síťového rozhraní]] | [[1. Fyzická Vrstva]]     |
 - 5. a 6. - nic zajímavýho, příprava dat pro 7. vrstvu
