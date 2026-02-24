@@ -14,7 +14,7 @@ tags:
 - Bezpečnost dat a jejich ochrana
 - Steganografie a kryptografie v kybernetické bezpečnosti
 - Autorský zákoník a zákon o kybernetické bezpečnosti v běžném životě
-- [[Organizace a týmy zapojené do kybernetické bezpečnosti]] - *máme brát s humlem*
+- [[Organizace a týmy zapojené do kybernetické bezpečnosti]]
 - [[Serverové a desktopové operační systémy]]
 - Bezpečnost operačních systémů z pohledu kybernetiky 
 - [[Bezdrátová komunikace a její zabezpečení]]
@@ -35,9 +35,9 @@ tags:
 - [[IoT (programování, bezpečnost a jednotlivé části IoT) ]]
 - Úvod do programování robotů 
 - Softwarová a hardwarová výbava robota 
-- [[Databáze]] - **nedodělané**
-- [[SQL databáze]] - **málo textu**
-- [[Základy algoritmizace-]] 
+- [[Databáze]]
+- [[SQL databáze]]
+- [[Základy algoritmizace]] 
 - [[Jazyk C sharp - základní struktury a principy, datové typy a proměnné]] 
 - [[Principy OOP]] – třída, objekt, skládání, dědění, zapouzdření, delegování a polymorfizmus  - **nedodělané**
 - Atributy třídy, modifikátory přístupu k atributům, přístup k atributům pomocí vlastností tříd. 
