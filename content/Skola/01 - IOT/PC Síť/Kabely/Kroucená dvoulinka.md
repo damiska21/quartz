@@ -14,6 +14,7 @@ tags:
 	- T568A
 	- T568B
 		- mají prohozoné zelené a oranžové konektory 
+		- #todo který je který a který se kam zapojuje
 - ochrana kabelu
 	- UTP
 	- STP - shielded twisted pair - má extra protekční dráty

@@ -90,13 +90,13 @@ Počítačová ochrana ve třech krocích:  
 
 ## Úrovně zabezpečení 
 
-| Stupeň (Class) zabezpečení | Laický popis                                                                                                                                                                                                                     | Běžné označení v komerční sféře | Označení podle zákona č. 412/2005 |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | --------------------------------- |
-| C0                         | Jedná se o informace, které sice nemusely být nutně <br>zveřejněné, ale kdyby k tomu došlo, nic by se nestalo.                                                                                                                   | Veřejné                         | Veřejné                           |
-| C1                         | Tyto informace zveřejnit rozhodně nechceme, na druhou stranu, život by se nám kvůli tomu také nezhroutil.                                                                                                                        | Citlivé                         | Vyhrazené (Restricted)            |
-| C2                         | Únik takových informací by byl osudový. Odolnost proti běžným hackerům a policii (při běžném vyšetřování)                                                                                                                        | Interní                         | Důvěrné (Confidential)            |
-| C3                         | Únik informací z této kategorie by už mohl někoho stát život. Od této úrovně bychom řešili i například to, že nás někdo může mučit, abychom mu informace poskytli. Odolnost proti profesionálním hackerům či tajným <br>službám. | Chráněné                        | Tajné (Secret)                    |
-| C4                         | Zde platí totéž jako v úrovni C3.                                                                                                                                                                                                | /                               | Přísně tajné (Top Secret)         |
+| Stupeň (Class) zabezpečení | Laický popis                                                                                                                                                                                                                 | Běžné označení v komerční sféře | Označení podle zákona č. 412/2005 |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | --------------------------------- |
+| C0                         | Jedná se o informace, které sice nemusely být nutně <br>zveřejněné, ale kdyby k tomu došlo, nic by se nestalo.                                                                                                               | Veřejné                         | Veřejné                           |
+| C1                         | Tyto informace zveřejnit rozhodně nechceme, na druhou stranu, život by se nám kvůli tomu také nezhroutil.                                                                                                                    | Citlivé                         | Vyhrazené (Restricted)            |
+| C2                         | Únik takových informací by byl osudový. Odolnost proti běžným hackerům a policii (při běžném vyšetřování)                                                                                                                    | Interní                         | Důvěrné (Confidential)            |
+| C3                         | Únik informací z této kategorie by už mohl někoho stát život. Od této úrovně bychom řešili i například to, že nás někdo může mučit, abychom mu informace poskytli. Odolnost proti profesionálním hackerům či tajným službám. | Chráněné                        | Tajné (Secret)                    |
+| C4                         | Zde platí totéž jako v úrovni C3.                                                                                                                                                                                            | /                               | Přísně tajné (Top Secret)         |
 
 Opatření: 
 - Silná hesla 
@@ -118,7 +118,7 @@ Firewall 
     - Aplikační brány 
     - Stavové packetové filtry 
     - Stavové packetové filtry s IDS 
-- Síťový firewall - samostatné hardwarové řešení pro ochranu počítačové sítě 
+- Síťový firewall - samostatné hardwarové řešení pro ochranu počítačové sítě (PfSense)
 - Personální firewall - realizovaný na koncových stanicích (pc) 
 
 Autentizace, autorizace a audit 

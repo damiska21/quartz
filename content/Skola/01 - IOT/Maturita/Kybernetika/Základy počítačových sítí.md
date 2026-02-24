@@ -24,8 +24,15 @@ cssclasses:
 	- [[Extended star]]
 - podle topologie *vysvětlení*
 	- logická
+		- jak spolu uzly komunikují, bez ohledu na fyzické zapojení
+		- kdo může komunikovat s kým, adresy, kdo má přístup k síťovým diskům...
 	- fyzická
+		- popisuje reálné propojení zařízení
+		- jaké jsou použitý konektory, kabely, síťové zařízení
+		- pod tuto topologii spadají topologie sítí jako [[Bus]] a [[Ring]]
 	- signálová
+		- jak se data fyzicky přenáší mezi zařízeními
+		- úrovně napětí, světelné pulzy, dané frekvence pro wifi
 - podle užití
 	- korporátní/firemní
 	- domácí/malé kanceláře

@@ -2,17 +2,98 @@
 date: 2025-11-23T13:18
 cssclasses:
 ---
-**Abstraktní třída** – obaluje normální třídy, je nad nimi, obsahuje slovo abstract, pomocí konstruktoru jim nelze vytvořit instanci, kompilátor to nedovolí, obsahuje abstraktní metody
+# Interface
+* **Společné rozhraní tříd**
+* obsahuje veřejné metody nějakého objektu
+* ovládají se přes něj třídy, které od něj implementujou
+* třídy implementují interface
+* nedá se od něj dědit.
+* třída může implementovat několik interfejsů najednou
 
-**Generická třída** je třída, která pracuje s neurčeným datovým typem.  
-Neurčený datový typ označujeme vždy písmenem T  
-Datový typ se určí až když vytváříme instanci
+## Příklad
+```java
+// interface ptáka
+public interface IPtak
+{
+    public void Pipni();
+}
 
-**Interface** je společným rozhraním tříd  
-Interface obsahuje hlavičky společných metod, které jsou společné třídám, které ho implementují, název se často tvoří jako "I" + "použití"  
-To je dobré pro to, že pak lze přistupovat k objektům pomocí jednotlivých objektů - to dělá Servant
+//třída, která implementuje interface
+public class Vrana implements IPtak
+{
+  @Override
+  public void Pipni() {System.out.println("KráKrá");}
+}
+```
+# Servant (Služebník)
+* přidání dodatečné funkcionality skupině tříd, aniž bychom museli tyto třídy měnit a dávat do nich stejný/podobný kód
+* instance Služebníka obsluhují instance tříd požadujících novou funkčnost
+* např. posunutí geometrického tvaru o x
 
-**Messenger** se používá, pokud je potřeba přenést ze třídy více než jednu hodnotu, datový typ (jeden získáme pomocí funkce, např. getteru)  
-Vytvoříme si proto "přepravku", kterou je právě Messenger  
-Vytvoříme novou třídu se stejnými atributy, ty musí být public (chceme se k nim dostat i odjinud) a budou asi i final (aby nešly omylem/neoprávněně měnit)  
-V původní třídě, ze které chceme získat data vytvoříme metodu, která nám data předá (tedy funkci) a do ní dáme slůvko "return" a za to všechny atributy
+# Generické třídy
+* umožňují **parametrizovat některý datový člen**
+* Výhodou tohoto přístupu je znovupoužitelnost kódu 
+* Typickým příkladem jsou kolekce, které mohou udržovat jakýkoliv typ a zároveň být **strongly typed** (specifikovat přesně jaký typ objektu obsahují). 
+
+## Příklad
+```C#
+/// <summary>
+/// Třída s parametrem typu barvy (jak budeme barvu reprezentovat).
+/// </summary>
+/// <typeparam name="TColor"></typeparam>
+class Car<TColor>
+{
+    private TColor m_color;
+    
+    public Car(TColor color)
+    {
+        // V tomto příkladě nám někdo musí sdělit defaultní barvu, protože v době psaní
+        // třídy ji nemůžeme určit.
+        m_color = color;
+    }
+    
+    public void ChangeColor(TColor color)
+    {
+        m_color = color;
+    }
+    
+    public TColor GetColor()
+    {
+        return m_color;
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // barvu budeme ukládát reprezentovat stringem
+        Car<string> car1 = new Car<string>("Red");
+        // barvu budeme reprezentovat strukturou Color, která je součástí C#/.NET
+        Car<Color> car2 = new Car<Color>(Color.Red);
+    }
+}
+```
+# Messenger (přepravka)
+* používá se ke sloučení několika samostatných informací do jednoho objektu
+* počet atributů = počet přenášených hodnot
+* atributy třídy jsou veřejné konstanty
+  - lze k nim přistupovat přímo
+  - nelze je dále měnit
+* lze definovat přístupové metody (gettery), příp. další užitečné metody (Ale potom se z přepravky spíše přibližuje běžným objektům)
+* atributy třídy jsou nastaveny v konstruktoru, dále je nelze měnit (bezpečné předání dat)
+
+## Příklad
+```java
+public class Pozice
+{
+  public final int x;
+  public final int y;
+
+  public Pozice( int x, int y )
+  {
+    this.x = x;
+    this.y = y;
+  }
+}
+```

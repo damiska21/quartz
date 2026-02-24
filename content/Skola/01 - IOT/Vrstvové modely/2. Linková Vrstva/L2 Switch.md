@@ -3,6 +3,7 @@ date: 2024-09-16T20:05
 tags:
   - 
 ---
+
 - má tabulku MAC adres, na základě tabulky propojuje porty
 - pracuje s rámci, pro jejich analýzu používá metody:
 	- cut and through
@@ -15,8 +16,10 @@ tags:
 		- vybírá mezi c&t a s&f podle výhodnosti
 		- c&t je rychlejší, když je moc rámců používá ten, s&f je pomalejší a víc consistent
 	- fragment free
+		- začne přeposílat rámec až když přijde 64 bitů, čímž se zajišťuje, že nevznikla kolize
+		- má význam, pokud je do switche připojen [[Hub]]
 - max 52 portů
-- spojuje zařízení v síti do síťové topologie star
+- spojuje zařízení v síti do síťové topologie [[star]]
 
 
 - switch posílá "hello packet": žádá nově připojené zařízení o MAC adresu, ty si ukládá do MAC tablu (tabulky MAC adres připojených zařízení)

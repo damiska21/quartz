@@ -10,4 +10,5 @@ tags:
 	- zákon plného odrazu - veškeré světlo v kabelu se odrazí zpět do kabelu, nijak nezaniká
 	- mezní úhel - úhel pod kterým může být úplný odraz
 #### Nevýhody
-křehkost, nefunkčnost kabelu při velkém ohnutí
+- křehkost
+- nefunkčnost kabelu při velkém ohnutí

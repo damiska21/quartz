@@ -30,6 +30,7 @@ Hobit aneb cesta tam a zase zpátky
 [[Romeo, Julie a tma - Jan Otčenášek]]
 [[Krysař - Viktor Dyk]]
 Edison - Vítězslav Nezval
-
+[[Ostře sledované vlaky - Bohumil Hrabal]]
+Noc na Karlštejně - Jaroslav Vrchlický
 
 https://sposdk.cz/wp-content/uploads/2025/10/Seznam-cetby-2025-26.pdf

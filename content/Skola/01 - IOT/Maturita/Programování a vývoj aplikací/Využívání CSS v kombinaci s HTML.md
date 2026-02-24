@@ -24,29 +24,30 @@ cssclasses:
 	- specifický matching atribut
 		- id
 		- class
-```
-výběr všech emementů
+```css
+/*tohle je css komentář, může být i na několik řádků*/
+/*výběr všech elementů*/
 h2 {
 	color: red;
 }
 
-výběr podle id
+/*výběr podle id*/
 #navbar {
 	background-color: blue;
 }
 
-výběr podle class 
+/*výběr podle class */
 .contact {
 	text-align: center;
 }
 
-míchačka - pouze p elementy s class neco
+/*míchačka - pouze p elementy s class neco*/
 p.neco {
 	text-align: center;
 }
 ```
 
-- Stylopis - Do hlavičky dokumentu se napíše stylopis uzavřený mezi tagy `<style>``</style>`
+- Stylopis - Do hlavičky dokumentu se napíše stylopis uzavřený mezi tagy `<style></style>`
 - Soubor
 	- Vytvoří se soubor, který se pojmenuje třeba `styly.css`:
 	```css

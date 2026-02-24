@@ -2,7 +2,7 @@
 date: 2025-09-19T09:15
 cssclasses:
 ---
-- dynamický protokol na [[Router]]u 
+- dynamický protokol na [[Router|routeru]] 
 - využívá metodu next-hop
 	- určuje nejkratší vzdálenost
 - každý [[Router]] si drží routovací tabulku, kde je udaná vzdálenost do všech podsítí

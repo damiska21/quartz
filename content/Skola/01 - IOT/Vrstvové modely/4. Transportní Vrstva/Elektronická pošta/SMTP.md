@@ -4,7 +4,7 @@ cssclasses: []
 ---
 - simple mail transfer protocol
 - navržen pro odchozí poštu klient -> server
-- 
+- #todo dopsat
 ## Porty
 - nešifrovaný 25
 - šifrovaný 465 / 587

@@ -1,0 +1,138 @@
+---
+date: 2026-02-21T15:25
+cssclasses:
+---
+# Základy C\#
+- Objektově orientovaný programovací jazyk vyvinutý firmou Microsoft
+- Patří do skupiny **kompilovaných** programovacích jazyků
+- Lze využít k tvorbě databázových programů, webových aplikací a stránek, webových služeb, formulářových aplikací ve Windows, softwaru pro mobilní zařízení (PDA a mobilní telefony) atd.
+
+## Vlastnosti
+- V C# neexistuje vícenásobná dědičnost (každá třída může dědit pouze od jedné třídy)
+- Nemá žádné globální proměnné a metody, všechny musí být deklarovány uvnitř tříd
+- Nepotřebuje a ani neobsahuje dopřednou deklaraci (pořadí deklarace metod není důležité)
+- C# je case sensitive 
+- C# používá CTS (Common Type System)
+
+## CTS (Common Type System)
+- Unifikovaný typový systém, používaný všemi jazyky pod .NET Framework
+- Všechny typy jsou potomky třídy System.Object a dědí od ní i všechny její metody
+- Všechny typy v .NET jsou buď typy hodnot nebo typy odkazů.
+
+### Hodnotové datové typy
+
+1. **Primitivní datové typy**
+   - Celočíselné datové typy (Byte, Integer, Char, …) a datové typy reprezentující reálná čísla (float, double, decimal)
+   
+1. **Struktury**
+   - Uživatelsky definované datové typy
+   - Připomínají třídy, ale nemohou dědit ani být děděny.
+   - Mohou implementovat rozhraní
+   
+1. **Výčtové typy**
+   - Množina předem definovaných hodnot (např. Dny v týdnu)
+
+### Referenční datové typy
+- Neuchovávají na rozdíl od typů hodnotových hodnotu samotnou, ale odkaz na místo v paměti, kde je požadovaná instance uložena 
+
+# Datové typy a proměnné
+
+## Proměnné
+- Označena identifikátorem (symbolické jméno) a datovým typem
+- Může nabývat určité hodnoty
+- Můžou mít nějaký **modifikátor přístupu (public, private, protected)**
+- Privátní proměnné se získávají/nastavují **gettery a settery**
+- Neměnné proměnné se nazývají konstanty
+
+## Datové typy
+- Určuje typ hodnoty, které proměnná může nabývat
+- Dělí se na **Hodnotové** a **Referenční**
+- Dělí se na **jednoduché, složené a zvláštní datové typy**
+
+### Hodnotové datové typy
+
+1. **Primitivní datové typy**
+   - Celočíselné datové typy (Byte, Integer, Char, …) a datové typy reprezentující reálná čísla (float, double, decimal)
+   
+1. **Struktury**
+   - Uživatelsky definované datové typy
+   - Připomínají třídy, ale nemohou dědit ani být děděny.
+   
+1. **Výčtové typy**
+   - Množina předem definovaných hodnot (např. Dny v týdnu)
+
+### Referenční datové typy
+- Neuchovávají na rozdíl od typů hodnotových pouze hodnotu samotnou, ale odkaz na místo v paměti, kde je požadovaná instance uložena 
+
+### Jednoduché datové typy
+- Většinou přímo zabudovány do jazyka
+- Dělí se na **ordinální, neordinální a prázdný datové typy**
+
+#### Ordinální datové typy
+- Tvoří lineárně uspořádanou množinu, kde pro každý prvek je přesně definovaný předchůdce i následovník
+
+1. **Logická hodnota (boolean)**
+   - Hodnoty true nebo false (boolean)
+   
+1. **Celé číslo (byte, integer, long)**
+   - Hodnoty celého čísla
+   - Má určitý rozsah (byte = 8 bitů, integer = 32 bitů, long = 64 bitů)
+   
+1. **Znak (char)**
+   - Hodnota znaku (a,b,c)
+   
+1. **Výčtový typ (enum)**
+   - Programátorem definovaný typ
+   - Většinou se sem ukládají neměnné hodnoty (konstanty)
+   - Příklad
+     ```java 
+     enum barva {piky, srdce, kary, krize}; // barvy karet
+     ```
+
+#### Neordinální datové typy
+- Není jednoznačně určen předchůdce a následovník každé hodnoty
+
+1. Reálné číslo (double, float, real)
+   - Hodnoty reálných čísel
+   - Mohou ve stejné velikosti paměti reprezentovat mnohem větší rozsah hodnot než celé číslo
+     - 32bitové celé číslo = +-10^9 zatímco 32bitové reálné číslo = +-10^-38
+
+#### Prázdný datový typ (void)
+- Nenabývá žádných hodnot
+
+### Složené datové typy
+- Obsahují více prvků většinou stejného typu
+
+1. **Pole (array)**
+   - Obsahuje několik hodnot stejného datového typu (int[], string[])
+   - Každá položka v poli má určitý **index (pořadí v poli)**
+   - Mohou být vícerozměrné (těm se říká matice)
+
+1. **Textový řetězec (String)**
+   - **Pole znaků**
+   - Ukládá například Slovo nebo větu/věty
+
+1. **Seznam (list)**
+   - Obdoba pole
+   - Nelze seznam přímo adresovat pomocí indexu a lze ho procházet pouze postupně (od začátku do konce)
+   - Výhodou seznamů je snadné přidávání nebo odebíraní prvků uprostřed seznamu
+
+1. **Záznam**
+   - Může být složen z prvků různých datových typů
+     ```C
+     typedef struct {
+     int vek;
+     String jmeno;
+     enum { muz, zena } pohlavi;
+     } Osoba;
+     ```
+     
+### Zvláštní datové typy
+1. **Ukazatel (pointer)**
+   - Odkazuje na místo v paměti
+  
+1. **Soubor (file)**
+   - Reprezentuje soubor
+
+1. Komplexní číslo
+   - Například v Python (2+4j)

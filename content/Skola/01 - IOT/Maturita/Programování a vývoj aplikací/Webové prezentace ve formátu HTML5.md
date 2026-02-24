@@ -2,39 +2,30 @@
 date: 2025-10-04T16:47
 cssclasses:
 ---
-## XHTML
-* eXtensible hypertext markup language rozšiřitelný hypertextový značkovací jazyk
-* Striktnější než html
-	* Nepodporuje křížení tagů (např. `<b><i>text</b></i>` - špatně, `<b><i>text</i></b>` - správně)
-	* Nepárové tagy končí lomítkem
-	* Všechny atributy mají hodnoty v uvozovkách
-	* Dokument by měl mýt XML prolog `<?xml version="1.0" encoding="UTF-8"?>`
-
 ## HTML
 - Název značkovacího jazyka používaného pro tvorbu webových stránek, které jsou propojeny hypertextovými odkazy. HTML je hlavním z jazyků pro vytváření stránek v systému World Wide Web, který umožňuje publikaci dokumentů na Internetu. Dnes se používá HTML5.
 - Klient-server architektura
 
-
 ### HTML Tagy
 - Tagy = značky
-- HTML soubor je obyčejný text obalený značkami, které se nazývají tagy.
-- Tagy určují, jak bude text vypadat, tedy jakou bude mít formu.
-- Všechny tagy jsou uzavřeny v <ostrých závorkách>.
-- Co není v ostrých závorkách, je text, který se bude zobrazovat.
-- Tagy jsou párové a nepárové.
+- HTML soubor je obyčejný text obalený značkami, které se nazývají tagy
+- Tagy určují, jak bude text vypadat, tedy jakou bude mít formu
+- Všechny tagy jsou uzavřeny v <ostrých závorkách>
+- Co není v ostrých závorkách, je text, který se bude zobrazovat
+- Tagy jsou párové a nepárové
 - Příklady tagů:
-  	- `<h1>`, `</h1>`
-      - vymezení nadpisu první úrovně (lze použít až šest úrovní nadpisů tedy až `<h6>`).
-      - Vykreslují se různě velké podle důležitosti.
-  	- \<p>, \</p>
+	- `<h1>`, `</h1>`
+	- vymezení nadpisu první úrovně (lze použít až šest úrovní nadpisů tedy až `<h6>`).
+    - Vykreslují se různě velké podle důležitosti.
+- \<p>, \</p>
       - vymezení odstavce. Možná vůbec nejpoužívanější tag. Po jeho konci prohlížeč automaticky zalomí řádek a udělá vertikální mezeru.
-  	- \<b>, \</b>
-      - text mezi těmito tagy bude tučný.
-  	- \<i>, \</i>
-      - kurzíva
-  	- \<span>, \</span>
+- \<b>, \</b>
+	- **ztuční text**
+- \<i>, \</i>
+	- *zkurvízuje text*
+- \<span>, \</span>
       - dvojice tagů vymezující nějak odlišný text.
-  	- \<br>
+  - \<br>
       - Zalomí řádek. Text po tomto tagu bude vždy začínat na novém řádku, ale není to nový odstavec. Pozor, tento tag je nepárový, to znamená, že žádné </br> neexistuje!
 - Nové tagy v HTML5: [zde](https://www.tutorialspoint.com/html5/html5_new_tags.htm)
 
@@ -79,6 +70,14 @@ cssclasses:
 - V případě nalezení chybného zápisu napíše chybu.
 - Buď ji validátor sám opraví, nebo to musíte přepsat vy. (Záleží na validátoru)
 - [W3C validátor](https://validator.w3.org/)
+
+## XHTML
+* eXtensible hypertext markup language rozšiřitelný hypertextový značkovací jazyk
+* Striktnější než html
+	* Nepodporuje křížení tagů (např. `<b><i>text</b></i>` - špatně, `<b><i>text</i></b>` - správně)
+	* Nepárové tagy končí lomítkem
+	* Všechny atributy mají hodnoty v uvozovkách
+	* Dokument by měl mít XML prolog `<?xml version="1.0" encoding="UTF-8"?>`
 
 ## Reference
 * [Jak psát web - HTML, CSS, JS](https://www.jakpsatweb.cz/) (cs)

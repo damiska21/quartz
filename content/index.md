@@ -17,3 +17,8 @@ Vítej :)
 ## Jazyky
 Angličtina časy - [[Přehled]]
 [[Frájina]]
+
+## Hacking
+- docela unstructered momentálně, ale nějakej cool shit v těch složkách najdeš
+- [[XSS]]
+- [[HTTP Request Smuggling]]

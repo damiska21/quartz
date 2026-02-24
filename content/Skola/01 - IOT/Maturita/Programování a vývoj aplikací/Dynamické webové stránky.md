@@ -4,8 +4,8 @@ cssclasses:
 ---
 # Dynamické stránky
 Dynamická webová stránka je druh webové stránky, jejíž obsah byl vygenerován aktuálními informacemi pro každé individuální zobrazení. Nejedná se o statickou webovou stránku, neboť **její obsah se mění v závislosti na čase** (např. blog), **uživateli** (např. přihlášení uživatele pomocí session), **uživatelské interakci** (např. online počítačová hra), 
-kontextu (např. přizpůsobení pomocí parametrů) nebo jakékoli kombinaci předchozího.
-Klient server architektura
+**kontextu** (např. přizpůsobení pomocí parametrů) nebo jakékoli kombinaci předchozího.
+- Klient server architektura
 
 ## Skriptování a vytváření obsahu na straně klienta
 -	využíváno pro změnu obsahu webové stránky tak, že příslušný kód je uvnitř webové stránky a reaguje na události generované z klávesnice nebo myši.
@@ -25,10 +25,10 @@ Klient server architektura
     - Z důvodu skrytí zdrojového kódu aplikací koncovému uživateli je upřednostňováno programování na straně serveru. Tato metoda bývá často přijata z důvodu **zvýšení bezpečnosti** webových stránek a z důvodu zabránění zkopírování zdrojového kódu jinými webovými vývojáři.
     - Menší výpočetní výkon na straně klienta
 -	Nevýhody:
-    - Soukromější obsah(databáze), uložený na serveru, je méně viditelný pro internet, a proto se i **hůře vyhledává**.
+    - Soukromější obsah (databáze), uložený na serveru, je méně viditelný pro internet, a proto se i **hůře vyhledává**.
   
 ## Kombinování stran klienta a serveru
-- AJAX je technologie vývoje webových stránek pro dynamickou výměnu obsahu se stranou serveru bez nutnosti znovunačíst webovou stránku. Příkladem webových aplikací používající AJAX technologii a databázi jsou Google mapy.
+- AJAX je technologie vývoje webových stránek pro dynamickou výměnu obsahu se stranou serveru bez nutnosti znovu načíst webovou stránku. Příkladem webových aplikací používající AJAX technologii a databázi jsou Google mapy.
 
 ## Formulář
 - form - Párový tag. Uzavírá skupinu ovládacích polí do jednoho formuláře, který bude najednou odeslán.

@@ -7,5 +7,6 @@ tags:
 - má díry RJ-45 (standartní lan kabel)
 - nejprimitivější zařízení na rozbočování kabelu
 - kopíruje příchozí signál na všechny přípojky
-	- na zařízení, kde není signál určen signál zaniká
+	- na zařízení, kde není signál určen zaniká
+		- pokud nemá [[NIC]] promiskuitní režim
 - vznik kolizí

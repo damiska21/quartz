@@ -6,7 +6,6 @@ cssclasses:
 - protokol pro stahování elektronické pošty do pc
 - nejstarší protokol
 - funguje defaultně na každém poštovním serveru
-- port 110 - nešifrovaný 995 - šifrovaný
 - vždy stahuje elektronickou poštu ze složky new do počítače
 	- na serveru se složka maže (záleží na konfiguraci)
 - pošta je vždy čitelná v počítači
