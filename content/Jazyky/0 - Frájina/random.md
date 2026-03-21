@@ -14,6 +14,7 @@ cssclasses:
     - sein (breast) - sain (health)
     - tenir (to hold, to keep) - tirer (to draw (a sword))
     - siége (seat, chair) - piége (trap) 
+    - inquiéter (to worry, trouble) - 
 
 - slova, který dávají 0 kurva smyslu
 	- la chair - flesh

@@ -2,12 +2,18 @@
 date: 2026-02-21T15:25
 cssclasses:
 ---
+
 # Základy C\#
-- Objektově orientovaný programovací jazyk vyvinutý firmou Microsoft
-- Patří do skupiny **kompilovaných** programovacích jazyků
+- Objektově orientovaný programovací jazyk vyvíjený firmou Microsoft
+	- součástí OS v balíčku .NET
 - Lze využít k tvorbě databázových programů, webových aplikací a stránek, webových služeb, formulářových aplikací ve Windows, softwaru pro mobilní zařízení (PDA a mobilní telefony) atd.
 
 ## Vlastnosti
+- je typově bezpečný
+- kompilovaný jazyk
+- je moderní, stále ve vývoji
+- má garbage collector - automatická správa paměti, likvidace nepoužívaných objektů
+- podporuje asynchronní programování
 - V C# neexistuje vícenásobná dědičnost (každá třída může dědit pouze od jedné třídy)
 - Nemá žádné globální proměnné a metody, všechny musí být deklarovány uvnitř tříd
 - Nepotřebuje a ani neobsahuje dopřednou deklaraci (pořadí deklarace metod není důležité)
@@ -34,6 +40,7 @@ cssclasses:
 
 ### Referenční datové typy
 - Neuchovávají na rozdíl od typů hodnotových hodnotu samotnou, ale odkaz na místo v paměti, kde je požadovaná instance uložena 
+- string
 
 # Datové typy a proměnné
 
@@ -117,22 +124,7 @@ cssclasses:
    - Nelze seznam přímo adresovat pomocí indexu a lze ho procházet pouze postupně (od začátku do konce)
    - Výhodou seznamů je snadné přidávání nebo odebíraní prvků uprostřed seznamu
 
-1. **Záznam**
-   - Může být složen z prvků různých datových typů
-     ```C
-     typedef struct {
-     int vek;
-     String jmeno;
-     enum { muz, zena } pohlavi;
-     } Osoba;
-     ```
-     
-### Zvláštní datové typy
-1. **Ukazatel (pointer)**
-   - Odkazuje na místo v paměti
-  
-1. **Soubor (file)**
-   - Reprezentuje soubor
+## aaa
+- konstanta - neměnitelná po prvním zápisu
+- proměnná - měnitelná
 
-1. Komplexní číslo
-   - Například v Python (2+4j)

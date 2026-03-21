@@ -3,12 +3,14 @@ date: 2025-11-23T13:18
 cssclasses:
 ---
 # Interface
-* **Společné rozhraní tříd**
+- samostatná třída definující **společné rozhraní tříd**
 * obsahuje veřejné metody nějakého objektu
 * ovládají se přes něj třídy, které od něj implementujou
 * třídy implementují interface
 * nedá se od něj dědit.
-* třída může implementovat několik interfejsů najednou
+* třída může implementovat libovolný počet interfaců najednou
+	* narozdíl od dědění, které je pouze od jedné třídy
+* v bluej se nemusí psát implements a jde to spojit graficky šipkami, jde na ní kliknout vlevo nahoře pod nová třída
 
 ## Příklad
 ```java

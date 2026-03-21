@@ -14,11 +14,13 @@ cssclasses:
 
 - hyperthreading
 	- povoluje jednomu jádru fungovat jako dvě virtuální
+	- na úrovni hardwaru, jedno fyzické jádro se OS tváří jako dvě, čímž může přijímat data z dvou vláken, případně pomoct jedno virtuální jádro druhému pokud první nemá co na práci, čeká na nějaká data, třeba z ram
+- multitasking
+	- procesor je schopný zpracovávat několik procesů najednou
+	- procesor rychle střídá zpracovávání několika funkcí najednou, což umožňuje i starým jednocorovým CPU mít otevřených několik oken ve windowsu, pro uživatele je to plynulé protože je střídá tak rychle
 - hypertransport - pouze AMD
 	- vysoká rychlost komunikace mezi hardwarem za účelem nízké latence
 	- (amd je spíše na videohry, nižší latenci chceš na klikání hlav :D)
-- multitasking
-	- procesor je schopný zpracovávat několik procesů najednou
 ### Instrukční sady
 - Instrukční  sada  je  seznam  všech  instrukcí  a  jejich  variant,  které  dokáže  procesor  identifikovat  a  vykonat
 - **RISC** – redukovaná instrukční sada (optimalizovaná sada strojových instrukcí)

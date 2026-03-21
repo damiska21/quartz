@@ -53,7 +53,7 @@ cssclasses:
 ### Rooty
 #### Windows
 - Windows
-	- nejdůležitější složky - System32 a SysWOW64
+	- nejdůležitější složky - System32, SysWOW64 a System
 - Programfiles (x64 a x86)
 - Users
 	- profily uživatelů
@@ -61,12 +61,62 @@ cssclasses:
 	- skrytá složka
 	- globální konfigurace OS a aplikací 
 #### Linux
+- kořen - / 
+	- závorky jsou porovníní s windowsem (C:\\)
+
 - bin
+	- základní spustitelné soubory
+	- (C:\\Windows\\System)
 - boot
+	- umístění jádra, kernelu, zavaděče - grub, initrd
 - dev
+	- fyzické zařízení linuxu, ovladače
+	- (C:\\Windows\\System32\\Drivers)
 - etc
+	- globální konfigurační soubory
+	- (C:\\Windows\\System32)
 - home
+	- domovské složky uživatelů
 - lib
-- mnt
+	- podpůrné knihovny operačního systému
+	- (C:\\Windows\\System32)
+- mnt nebo media nebo mount
+	- do podsložek se připojují další disky
+- proc
+	- soubor nastavení a stavu systému a jednotlivých procesů
+	- (Task manager - správce úloh)
 - root
+	- domovská složka administrátora
+	- z bezpečnostních důvodů oddělené od zbytku homu, nejde přemapovat jinam. home/ totiž může být oddělen na jiném disku, ale root musí být načten se systémem
+- sys
+	- virtuální systémový adresář - uložený kousek jádra
+- tmp
+	- dočasné soubory pro ukládání věcí co zrovna potřebuje systém, třeba odrarované rary na náhled, otevřené instalační soubory...
+	- automaticky se nemaže
+	- (C:\\Windows\\temp) nebo (C:\\user\\jmeno\\appdata\\local\\temp)
+- usr
+	- další nastavení pro programy
+	- (C:\\Users\\uživatel\\AppData\\)
+- var
+	- soubory, které se často za běhu mění, nejdůležitější
+	- (C:\\Windows\\System32) (C:\\Windows\\System)
 - run
+
+# idk
+- desktopové systémy slouží pouze pro lokální stanice a jsou určeny pro koncové uživatele, oproti serverovým nabízejí síˇtové služby
+
+- serverové operační systémy pracují s tkzv. rolemi
+	- [[DHCP]] server
+		- slouží k přiřazování ip pro lokální stanice
+	- Active Directory
+		- slouží ke správě uživatelů a skupin v síti
+	- [[DNS]]
+		- slouží k překladu doménových jmen na IP adresy (včetně lokální domény)
+	- printserver
+		- slouží ke správě sdílení tiskáren v síti
+	- fileserver
+		- slouží jako úložiště dat a mapování jednotek
+	- atd.
+
+- po tomhle můžeme vyprávět báje až do konce 15 minut, o AD
+	- porovnat [[peer to peer (p2p)]] a [[Klient server (c-s)]]

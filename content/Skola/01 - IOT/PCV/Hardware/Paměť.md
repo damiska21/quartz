@@ -16,31 +16,40 @@ cssclasses:
 			- 
 - Rozhraní
 	- SATA (I, II, III) - sériový přenos
-		- Napájení: SATA power (standard, slimline, micro)
+		- Napájení: SATA power (standard (stolák), slimline (malej stolák), micro (laptop))
+		- tři verze, liší se pretty much jenom rychlostí přenosu, jsou zpětně kompatibilní
+		- nejběžnější připojení HDD a SSD
 	- eSATA (eSATAp)
-	- M.2
+		- external SATA, pro externí disky
+		- eSATAp v jednom kabelu přenáší jak data tak napájení
+	- M.2 - dělení podle slotu na připojení
 		- SATA (SATA sběrnice)
+			- starší, omezená na klasické SATA SSD rychlosti - 550 MB/s
 		- NVMe (využívá PCIe sběrnici)
+			- rychlejší (3000-7000 MB/s i víc)
+			- spíše consumer-use
 	- PCIe
+		- spíše professional, velmi rychlé stejně jako M.2 NVMe
 - Velikost
 	- 2.5" - notebooky
 	- 3.5" - desktopové a tower skříně, skříně do racku
-- RAIDová pole
-	- RAID 0 (stripping)
-		- Jedná se o součet kapacit všech disků (1TB + 1TB => 2TB)
-		- Trvalá ztráta dat při poškození 1 disku
-		- RAID 0 vyžaduje alespoň 2 členy
-	- RAID 1 (mirror = zrcadlení)
-		- Data jsou stejně na obou discích (1TB a 1TB => 1TB)
-		- RAID 1 vyžaduje alespoň 2 členy
-	- RAID 5 (block-level striping with distributed parity)
-		- Každá skupina bloků na disku má přiřazený právě jeden paritní blok
-		- RAID 5 vyžaduje alespoň 3 členy
-		- 
+### RAIDová pole
+- Redundant Array of Independent Disks
+- main důvody
+	- zvýšení rychlosti - jelikož můžeš psát na různý disky tak zápis může být rychlejší
+	- zabezpečení proti selhání disků
 
-| RAID 0              | RAID 1              | RAID 5              | RAID 0+1             | RAID 1+0             |
-| ------------------- | ------------------- | ------------------- | -------------------- | -------------------- |
-| ![[raid0.png\|100]] | ![[raid1.png\|100]] | ![[raid5.png\|200]] | ![[raid01.png\|200]] | ![[raid10.png\|200]] |
+- RAID 0+1
+	- horší než 1+0 - pomalejší, pokud selže jeden disk přestává fungovat celá daná RAID 0, stačí dva disk faily v každé skupině a nemáš nic
+- RAID 1+0
+	- rychlejší, při ztrátě jednoho disku stále funguje druhý disk v mirroru, 
+
+| RAID             | RAID 0 (Stripe)                                 | RAID 1 (Mirror)                  | RAID 5                                                             | RAID 0+1                                                                                                          | RAID 1+0                                       |
+| ---------------- | ----------------------------------------------- | -------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| PRINCIP          | žádný mirroring, jenom rozdělení dat mezi disky | Data jsou stejně na obou discích | Každá skupina bloků na disku má přiřazený právě jeden paritní blok | data se rovnoměrně rozdělí na dva disky (raid 0) a tyto dva disky jsou pak mirrornuty na další dva disky (raid 1) | to samý jako 0+1 akorát obráceně, viz. obrázek |
+| POČET DISKŮ      | alespoň 2                                       | alespoň 2                        | alespoň 3                                                          | alespoň 4                                                                                                         | alespoň 4                                      |
+| TOLERANCE ZTRÁTY | žádný disk (ztráta dat při jakémkoliv selhání)  | 1 disk                           | 1 disk                                                             | 2 disky pokud jsou ve stejném raid 0 (stripu), jinak 1                                                            | 1 disk v každém mirroru (2 :D)                 |
+| OBRÁZEK          | ![[raid0.png\|100]]                             | ![[raid1.png\|100]]              | ![[raid5.png\|200]]                                                | ![[raid01.png\|200]]                                                                                              | ![[raid10.png\|200]]                           |
 
 ## HDD
 - **Mechanický disk** (uvnitř jsou pevné rotující plotny, na kterých jsou data zaznamenávána)
@@ -82,19 +91,19 @@ cssclasses:
 - Data jsou uspořádána do spirály
 
 # RAM (Random Access Memory)
-- Volatilní paměť (k udržení dat je potřeba napájení - při jeho přerušení )
+- Volatilní paměť 
+	- k udržení dat je potřeba napájení - při jeho přerušení se data mažou
 - Slouží k průběžnému ukládání instrukcí a dat, se kterými počítač aktuálně pracuje.
 - Paměť s náhodným přístupem
 - Umožňuje čtení i zápis
-- Po přerušení napájení ztráta dat
 - dělení
 	- static - data, co tam uložíš tam zůstanou do shutdownu
 	- dynamic - data musíš periodicky obnovovat aby tam zůstali
 - čipy
 	- SIMM
-		- single in line
+		- single in line memory module
 	- DIMM
-		- double in line (ověřit)
+		- dual in line memory module
 - Data je potřeba obnovovat
 
 - kapacita, časování, frekvence, uložení čipu (SIMM/DIMM)
@@ -111,4 +120,4 @@ cssclasses:
 - **DDR4** – 2133-3200 MHz
 
 # Kazetopásková paměť 
-- Streamovací zařízení, používané k zálohování serverů (mechanika 5 1/4", do které se vkládá kazeta s datoouá magnetickou páskou
+- Streamovací zařízení, používané k zálohování serverů (mechanika 5 1/4", do které se vkládá kazeta s datovou magnetickou páskou

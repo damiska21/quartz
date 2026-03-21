@@ -4,14 +4,19 @@ cssclasses:
 ---
 [Cross-Site Scripting (XSS) Cheat Sheet - 2026 Edition | Web Security Academy](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
 [What is cross-site scripting (XSS) and how to prevent it? | Web Security Academy](https://portswigger.net/web-security/cross-site-scripting)
+https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html
 
 ---
 - umožňuje útočníkovi circumventnout same origin policy a dělat akce, které správně může dělat pouze oběť
 - xss může vykonat jakoukoliv akci, kterou může vykonat uživatel, získat veškerá data ke kterým má přístup uživatel
 
 - `alert()` je nejvíce common, ale chrome ho občas blokuje takže je nutné použít `print()`
-```
+```html
 <script>alert()</script>
+```
+můj fav, je víc versatilní:
+```html
+<img src=1 onerror=alert(1)>
 ```
 
 - způsob, pomocí kterého se html zobrazí zpět na klientu

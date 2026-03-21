@@ -8,3 +8,4 @@ sqlmap
 hydra bruteforce
 
 sordum.org - zbavování windows nastavení
+

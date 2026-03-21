@@ -29,27 +29,31 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
+  light: "#fdf6ec",        // krémovej background
+  lightgray: "#f1e9dd",    // cards
+  gray: "#d6cfc4",         // borders
+  darkgray: "#6b645c",     // secondary text
+  dark: "#2d2a26",         // hlavní text
+
+  secondary: "#3a86ff",    // clean blue accent
+  tertiary: "#ff7b54",     // teplej accent
+
+  highlight: "rgba(58, 134, 255, 0.12)",
+  textHighlight: "#ffd16688",
+},
         darkMode: {
-          light: "#210F37",
-          lightgray: "#4F1C51",
-          gray: "#A55B4B",
-          darkgray: "#DCA06D",
-          dark: "#A55B4B",
-          secondary: "#A55B4B",
-          tertiary: "#DCA06D",
-          highlight: "rgba(220, 160, 109, 0.15)",
-          textHighlight: "#A55B4B",
-        },
+  light: "#0f1117",        // background (hluboká tmavá modro-šedá)
+  lightgray: "#1a1d26",    // cards
+  gray: "#2a2f3a",         // borders
+  darkgray: "#9aa4b2",     // secondary text
+  dark: "#e6edf3",         // hlavní text (ne čistě bílej!)
+
+  secondary: "#00f5d4",    // neon cyan accent
+  tertiary: "#f15bb5",     // neon pink accent
+
+  highlight: "rgba(0, 245, 212, 0.12)",
+  textHighlight: "#00f5d488",
+},
       },
     },
   },

@@ -49,3 +49,6 @@ cssclasses:
 
 ### Komunikace
 - ke komunikaci se používá vrstvový model TCP-IP
+
+# Extra yap
+- beztak firemní politika, to se dá hodit všude

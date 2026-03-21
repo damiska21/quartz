@@ -2,8 +2,30 @@
 date: 2025-10-08T10:54
 cssclasses:
 ---
-- tahle otázka je hrozný yappachíno z mojí strany, jestli si budeš pamatovat tohle všechno tak si macek cumne do kalhot (ale beztak bude stačit mnohem míň)
 
+- norbert wiener - bůh kybernetiky
+- kybernetika se zabívá procesy
+	- kybernetika je ve všech odvětvích - IT, management, ekonomika
+- princip řízení, algoritmus -> má nějaký začátek, a řešení
+- primární úkol - ochrana aktiv
+# dělení aktiv
+- hmotné
+- nehmotné
+
+- primární
+	- receptura třeba
+- podpůrné
+	- suroviny třeba
+	- zaměstnanci, obsluha
+- technické
+	- výrobní linky, automaty, server...
+---
+- zpětná vazba - výstup zpětně ovlivňuje vstup
+	- zpětná kontrola dat, případná náprava
+
+
+
+---
 - obor informatiky, který se zabývá ochranou počítačových systémů a sítí před neoprávněným přístupem k informacím či systémům
 	- chrání před narušením nebo zneužitím poskytovaných služeb - před kybernetickým útokem
 

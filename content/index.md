@@ -1,4 +1,4 @@
-Vítej :)
+všechny poznámky psané rukou, žádné ai. ai je občasně použito pro research, ale všechno přezkoumávám, šance na bludy je minimální (pokud nějaký najdeš, nebo si nejsi něčím jistý, piš)
 
 ## Škola
 ### IOT
@@ -15,8 +15,8 @@ Vítej :)
 [[Seznam Četby]]
 
 ## Jazyky
-Angličtina časy - [[Přehled]]
-[[Frájina]]
+ - [[Přehled|Angličtina časy]]
+ - [[Frájina]]
 
 ## Hacking
 - docela unstructered momentálně, ale nějakej cool shit v těch složkách najdeš

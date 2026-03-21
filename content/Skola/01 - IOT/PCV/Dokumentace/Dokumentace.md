@@ -24,3 +24,6 @@ v admin panelu
 vypnout mcaffe
 nastavit dobu erroru na minutu defaultně tam je 45
 nastavit maily na doménu windows NT
+
+- nenastavovat adresu serveru jako `neco.local` ale na IP
+- pak 

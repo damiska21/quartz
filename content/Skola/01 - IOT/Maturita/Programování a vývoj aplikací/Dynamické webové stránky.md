@@ -3,6 +3,23 @@ date: 2025-10-04T16:48
 cssclasses:
 ---
 # Dynamické stránky
+
+- zpracovávají se na straně serveru
+- narozdíl od statických umožňují uživateli se přihlásit a po přihlášení mění vzhled podle uživatele
+	- je na nich nějaký login
+- u statických je web nějaký soubor, který si otevře prohlížeč, jsou v něm HTML tagy, případně JS nebo CSS
+- u dynamických když zadáme požadavek tak se na serveru spustí aplikace a server předává prohlížeči HTML stránku
+	- jd
+- ASP vyžaduje IIS server (internetová informační služba)
+
+- dvě technologie, php, asp.net
+
+- složka www/inetpub
+
+
+# Architektura Model View Controller
+- model
+	- na práci s databází, objektově
 Dynamická webová stránka je druh webové stránky, jejíž obsah byl vygenerován aktuálními informacemi pro každé individuální zobrazení. Nejedná se o statickou webovou stránku, neboť **její obsah se mění v závislosti na čase** (např. blog), **uživateli** (např. přihlášení uživatele pomocí session), **uživatelské interakci** (např. online počítačová hra), 
 **kontextu** (např. přizpůsobení pomocí parametrů) nebo jakékoli kombinaci předchozího.
 - Klient server architektura

@@ -3,8 +3,9 @@ date: 2025-11-23T13:19
 cssclasses:
 ---
 # Utility (Knihovní třída)
-* Není třeba vytvářet instanci třídy a dokonce se to považuje za nežádoucí
+* má většinu času statické metody, nepožaduje využití instance a dokonce se to považuje za nežádoucí
 * Nemusí se od ní dědit
+* např. - `Console`, `Math`
 
 ## Výhody
 * Dobrá testovatelnost
@@ -25,6 +26,7 @@ cssclasses:
 # Singleton
 * Má jenom jednu globálně sdílenou instanci třídy (A nesmí být možné vytvořit další)
 * Používá se např. u databází (je třeba jenom jedno připojení/instance)
+* instance by měla být deklarovaná
 
 ## Základní implementace
 * má společný soukromý konstruktor, který zaručí, že nedojde k vytvoření další instance. 
@@ -138,3 +140,11 @@ public enum Mesic
 
 }
 ```
+## Ordinální
+- int, char, boolean, enum taky
+- ordinální = seřazené
+- v intu víme, jaké čislo jde po `25` stejně jako v `Mesic` víme že `KVETEN` bude až po `DUBEN`
+
+## poznámky v bluej
+- musí být nadeklarovány
+- konstruktor musí být nadeklarovaný aby byl schopný naplnit atributy

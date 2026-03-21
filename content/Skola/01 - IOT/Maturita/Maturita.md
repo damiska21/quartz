@@ -8,15 +8,15 @@ tags:
 # Kybernetická bezpečnost - 20
 - [[Základy kybernetické bezpečnosti]] - *done*
 - Bezpečnost na internetu a v lokálních sítích
-- Kybernetické hrozby a ochrana proti nim
-- Revitalizace počítačové sítě *po kybernetickém útoku*
-- Úlohy aktualizací a monitorovacích systémů v oblasti kyberneticky
-- Bezpečnost dat a jejich ochrana
+- [[Kybernetické hrozby a ochrana proti nim]]
+- [[Revitalizace počítačové sítě]] *po kybernetickém útoku*
+- [[Úlohy aktualizací a monitorovacích systémů v oblasti kyberneticky]]
+- [[Bezpečnost dat a jejich ochrana]]
 - Steganografie a kryptografie v kybernetické bezpečnosti
 - Autorský zákoník a zákon o kybernetické bezpečnosti v běžném životě
 - [[Organizace a týmy zapojené do kybernetické bezpečnosti]]
 - [[Serverové a desktopové operační systémy]]
-- Bezpečnost operačních systémů z pohledu kybernetiky 
+- [[Bezpečnost operačních systémů z pohledu kybernetiky]] 
 - [[Bezdrátová komunikace a její zabezpečení]]
 - [[Hardware a periferní zařízení]] - *done*
 - [[Aktivní a pasivní síťové prvky]] - *asi done*
@@ -24,7 +24,7 @@ tags:
 - [[Základy počítačových sítí]] - 8 minut
 - [[Bezpečnost v sítích]] - **nedodělané**
 - [IP adresace](IP%20adresa)
-- [Segmentace počítačových sítí](VLAN) - **absolutně kriminálně málo textu**
+- [Segmentace počítačových sítí](VLAN) - **necháváme na konec**
 - [[Aplikační protokoly v sítích]]
 
 # Programování a vývoj aplikací - 20
@@ -40,12 +40,12 @@ tags:
 - [[Základy algoritmizace]] 
 - [[Jazyk C sharp - základní struktury a principy, datové typy a proměnné]] 
 - [[Principy OOP]] – třída, objekt, skládání, dědění, zapouzdření, delegování a polymorfizmus  - **nedodělané**
-- Atributy třídy, modifikátory přístupu k atributům, přístup k atributům pomocí vlastností tříd. 
-- Konstruktor třídy, přetížené konstruktory, konstruktor s parametrem a bezparametrický 
-- Metody tříd - návratový typ, parametry, modifikátory přístupu. 
-- WinForms – standardní ovládací prvky 
-- C# a události tříd, přidání reference na obslužnou metodu, tvorba obslužných metod. 
-- Vývojové prostředí BlueJ – Tvorba tříd, vztahy mezi třídami, tvorba dokumentace, volání statických a nestatických metod, užití příkazového panelu. Jednosměrný uzlový seznam. 
+- [[Atributy třídy, modifikátory přístupu k atributům, přístup k atributům pomocí vlastností tříd]]. 
+- [[Konstruktor třídy, přetížené konstruktory, konstruktor s parametrem a bezparametrický]] 
+- [[Metody tříd - návratový typ, parametry, modifikátory přístupu. ]]
+- [[WinForms – standardní ovládací prvky]] 
+- [[Csharp a události tříd, přidání reference na obslužnou metodu, tvorba obslužných metod. ]]
+- [[Vývojové prostředí BlueJ – Tvorba tříd, vztahy mezi třídami, tvorba dokumentace, volání statických a nestatických metod, užití příkazového panelu. Jednosměrný uzlový seznam. ]]
 - [[Návrhové vzory - Utility, Singleton + tovární metoda, Enum. ]] - asi dodělané
 - [[Návrhové vzory - Interface – Servant, Generické třídy, Messenger.]] - asi dodělané
 

@@ -4,69 +4,64 @@ cssclasses:
 ---
 
 třída, objekt, skládání, dědění, zapouzdření, delegování a polymorfizmus
-# Objektové orientované programovaní
-* V rámci úlohy se identifikují objekty
-* Každý objekt má svoje vlastnosti a metody
-* Zdrojový kód se vytváří formou procedur, které jsou připojeny k událostem určitého typu – je řízen tokem událostí
-
-## 3 základní vlastnosti
-
- 
-### Obalení (Zapouzdření)
-* Vyjadřuje schopnost objektu spojit v jeden celek data a metody
-* Ukrytí vnitřní struktury objektu
-* Nemůžeme manipulovat přímo s atributy objektu, ale pouze pomocí operací z veřejného rozhraní objektu
-* Zamezuje nechtěným změnám či chybám stavu objektu
-* **Modularita** – každý objekt lze udržovat a spravovat nezávisle na jiném objektu, aniž by to nějak ovlivnilo celkovou funkčnost programu
-
-#### Modifikátory přístupu
-Přístup k proměnným a metodám může být řízen uvedením modifikátoru před deklaraci prvku
-
-* Public – veřejné, viditelné i mimo třídu
-* Private – privátní, viditelné pouze uvnitř třídy
-* Protected – nepřípustné vzdáleným přístupem, ale pocházející s děděním odvozených tří
-
-### Dědičnost
-* Umožňuje vytvářet nové objekty jako potomky již existujících objektů – předků, přebírat od nich datové položky a metody a modifikovat je či upřesňovat.
-
-### Polymorfismus (mnohotvárnost)
-* Polymorfismus je vlastnost objektového programování, která umožňuje pojmenovat metodu jedním jménem a tato metoda může být společná pro různé objekty ve stromové hierarchii, i když pro každý objekt v této hierarchii se bude chovat různě.
-
-## Objekt a jeho vlastnosti
-* Soběstačná entita (ucelená jednotka), která obsahuje data a funkčnost
-* Je instancí určité třídy
-* má konkrétní místo v paměti
-
-### Vlastnosti Objektu
-* Proměnné – atributy (vlastnosti)
-* Metody
-	* Podprogram, který primárně pracuje s proměnnými
-	* Může mít další parametry
-	* Dva typy
-		* **Funkce** – vrací hodnotu, používá se příkaz return
-		* **Procedury** – nevrací hodnotu
-			* U procedur se používá návratový typ **void**
-	* Mají určitý modifikátor přístupu 
-		* Přístup k proměnným a metodám může být řízen uvedením modifikátoru před deklaraci prvku 
-			* `public` – veřejné, viditelné i mimo třídu 
-			* `private` – privátní, viditelné pouze uvnitř třídy 
-			* `protected` – nepřípustné vzdáleným přístupem, ale pocházející s děděním odvozených tříd
-
-### Konstruktor 
-* Speciální metoda volaná při vytváření nových instancí dané třídy 
-* Inicializuje proměnné objektu 
-* **Nemají návratový datový typ (ani void)**, pouze modifikátor přístupu
-* Mohou mít parametry, ale nemusí 
-	* **Parametrické** (mají jeden a více parametrů)
-	* **Bezparametrické** (nemají žádný parametr)
-* Objekt se vytvoří pomocí operátoru `new` a konstruktoru (`Auto auto1 = new Auto()`)
+7
 
 ## Třída  
-* Skupina objektů, která nese stejné vlastnosti 
-* Popisuje vnitřní strukturu objektu a jeho vnější rozhraní 
-* Podobná datovému typu 
+- třída je kód odrážející okolní svět, proto můžeme vytvořit třídu pro cokoliv
+- třídu tvoří atributy
+- objekt je instance třídy
+	- z jedné třídy může vznikat libovolný počet objektů
+	- objekt vzniká pomocí konstruktoru
+		- konstruktory mohou být bezparametrické (každá nová instance je identická) nebo parametrické (posíláme atributy)
+### Objekt
+- instance třídy
+- vzniká pomocí operátoru new a názvu třídy vytvoříme objekt který přiřadíme proměnné stejného datového typu
+```c#
+Auto auto1 = new Auto();
+```
 
-## Delegování 
-* Objekt může využívat služeb jiných objektů tak, že je požádá o provedení operace, ty tedy pro okolí vystavují své služby.
+## Skládání
+```c#
+//například - popsat slovně
+Bod bod1 = new Bod(0,5);
+Bod bod2 = new Bod(3,3);
 
-P.S. Kdo furt nechápe OOP tak ať si vzpomene na Šmídův příklad – Auto a jeho vlastnosti – barva, značka,… getBarva(), getZnačka,… 
+Usecka usecka1 = new Usecka(bod1, bod2);
+```
+
+## Dědění
+- objekt se může skládat z menších objektů
+
+- tady šmíd začal vyprávět o druhohorách a o kapradinách asi 15 minut
+	- Darwinova teorie o evoluci
+	- "pokud někdo věří v boha tak to má jednoduchý"
+	- želvy, které mají dlouhý krky aby dosáhly do větví keřů jsou skvělý
+	- želva, která má krátký krk má smůlu protože se z keře nenažere
+	- pak mu štefan začal vyprávět o fotosintetickém mlžovi :DDDD
+
+- : dědění, `form1 : Form`
+	- rozšiřování třídy, od které dědím
+
+## Zapouzdření
+- třída obsahuje metody, ty metody mohou být privátní, zvenku neviditelné, mohu zavolat public metodu, která si pak sama zavolá private metodu
+
+
+## Delegování
+- třída může delegovat některé činnosti
+- objekt nekoná činnost sám, předá činnost jiné třídě na vykonání
+	- třída `auto` deleguje funkci oprav třídě `mechanik`
+- delegát
+	- zastupuje procedůru
+	- pomocí `event` lze vytvořit událost
+	- pomocí `.NazevEventu += new NazevDelegata(nazevFunkce, ktera se pri eventu spusti)`
+
+- podle IOC by si třída neměla generovat vlastní závislosti
+
+## Polymorfismus
+- když ve třídě vytvořím metodu `počítej`, se 2 parametry
+- se stejným názvem a s 3 parametry vytvořím znovu
+- a pak znovu se 4 parametry a všechny se chovají jinak, mohou mít kompletně jiné definice
+- v type-safe jazycích jako C# to může být i stejný počet parametrů ale jiné typy (jednou to je `int`, podruhé je to `double`, třeba)
+
+- nebo voláš metodu se stejným názvem na jiném objektu/třídě
+	- `Pes.VydatZvuk()` a `Kocka.VydatZvuk()` se bude chovat jinak
