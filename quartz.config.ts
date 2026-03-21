@@ -48,11 +48,10 @@ const config: QuartzConfig = {
   darkgray: "#9aa4b2",     // secondary text
   dark: "#e6edf3",         // hlavní text (ne čistě bílej!)
 
-  secondary: "#00f5d4",    // neon cyan accent
-  tertiary: "#f15bb5",     // neon pink accent
-
-  highlight: "rgba(0, 245, 212, 0.12)",
-  textHighlight: "#00f5d488",
+secondary: "#7dd3fc",   // soft blue
+tertiary: "#a78bfa",    // soft purple
+highlight: "rgba(0, 0, 0, 0.04)",
+textHighlight: "#e6b85c66",
 },
       },
     },
@@ -93,7 +92,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      //Plugin.CustomOgImages(),
     ],
   },
 }
