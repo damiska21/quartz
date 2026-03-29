@@ -12,7 +12,7 @@ tags:
 - [[Revitalizace počítačové sítě]] *po kybernetickém útoku*
 - [[Úlohy aktualizací a monitorovacích systémů v oblasti kyberneticky]]
 - [[Bezpečnost dat a jejich ochrana]]
-- Steganografie a kryptografie v kybernetické bezpečnosti
+- [[Steganografie a kryptografie v kybernetické bezpečnosti]]
 - Autorský zákoník a zákon o kybernetické bezpečnosti v běžném životě
 - [[Organizace a týmy zapojené do kybernetické bezpečnosti]]
 - [[Serverové a desktopové operační systémy]]
@@ -62,6 +62,6 @@ tags:
 - Realizace počítačové sítě s aktivním prvkem
 - Projekt z robotiky #1 
 - Projekt z robotiky #2 
-- Projekt v oblasti programování #1 
+- [[Projekt v oblasti programování]] #1 
 - Projekt v oblasti programování #2 
 - Projekt v oblasti programování #3

@@ -5,7 +5,7 @@ zdroj: https://rozbor-dila.cz/maj-rozbor-dila-k-maturite-8/
 autor: Karel Hynek Mácha
 zapsane: true
 ---
-Inline:: Ano 
+
 # Autor
 Karel Hynek Mácha
 ## Život

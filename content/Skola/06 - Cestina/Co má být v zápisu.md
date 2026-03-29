@@ -2,7 +2,7 @@
 date: 2024-10-15T16:48
 cssclasses:
 ---
-# Analýza umělěckého textu
+# Analýza uměleckého textu
 I. část
 - zasazení výňatku do kontextu díla
 - téma a motiv

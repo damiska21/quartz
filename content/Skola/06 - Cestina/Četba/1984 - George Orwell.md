@@ -5,7 +5,6 @@ zdroj:
 autor: George Orwell
 zapsane: true
 ---
-Inline:: tak napůl
 # Autor
 George Orwell (\*1903 - 1950)
 ## Život
@@ -20,13 +19,30 @@ George Orwell (\*1903 - 1950)
 - Hold Katalánsku
 # Literárně historický kontext
 - Kniha vznikla v roce 1948, vyšla v roce 1949
+- doba po druhé světové válce, studená válka mezi amerikou a SSSR
+## Další autoři
+- tohle nejsou všichni, takový výběr těch, co si budu dobře pamatovat
+
+- válečná lit.
+	- William Styron - Sophiina volba
+- existencialismus
+	- Albert Camus - Cizinec
+- absurdní drama
+	- Samuel Beckett - Čekání na Godota
+- antiutopie, sci-fi
+	- Ray Bradbury - 451 stupňů Farenheita
+	- Karel Čapek - Válka s mloky, R. U. R
 # Rozbor díla
 - epika
 - antiutopistický román (Antiutopie- opak utopie, společnost se vyvinula špatným směrem)
 - sci-fi
+
+- časoprostor - rok 1984, Londýn
+- psáno er-formou, nadosobní
 # Hlavní Myšlenka
 Lidská individualita se stává zločinem. Analýza všech politických systémů. Manipulace, kontrola
 # Hlavní Postavy
+postavy se v průběhu knihy mění, zaměřujeme se dost na jejich myšlenkové pochody, hlavně u Winstona
 - Winston Smith
 	- falšuje historii, ale snaží si uchovat pravdu ve svých myšlenkách, snaží se o rebelii
 - Julie

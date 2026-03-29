@@ -23,10 +23,9 @@ chybí mi 2 české literatury 20.-21. stol.
 [[1984 - George Orwell]]
 Farma Zvířat - George Orwell
 [[O myších a lidech - John Steinbeck]]
-
-Hobit aneb cesta tam a zase zpátky
 ### ČESKÁ LITERATURA 20. A 21. STOLETÍ - MINIMÁLNĚ 5 TITULŮ
 [[R. U. R - Karel Čapek]]
+Krakatit - Karel Čapek 
 [[Romeo, Julie a tma - Jan Otčenášek]]
 [[Krysař - Viktor Dyk]]
 Edison - Vítězslav Nezval
