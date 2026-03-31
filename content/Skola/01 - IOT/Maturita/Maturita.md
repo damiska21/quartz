@@ -50,7 +50,7 @@ tags:
 - [[Návrhové vzory - Interface – Servant, Generické třídy, Messenger.]] - asi dodělané
 
 # Praktická část MZ - 15
-- Zabezpečení počítačové sítě P2P - **budeme dělat**
+- [[Zabezpečení počítačové sítě P2P]] - **budeme dělat**
 - Zabezpečení sítě client – server 
 - Konfigurace mail serveru s protokolem POP3
 - Konfigurace mail serveru s protokolem IMAP4
@@ -59,7 +59,7 @@ tags:
 - Bezpečnost dat v systému
 - Realizace webhostingu
 - Segmentace sítě - **budeme dělat**
-- Realizace počítačové sítě s aktivním prvkem
+- [[Realizace počítačové sítě s aktivním prvkem]]
 - Projekt z robotiky #1 
 - Projekt z robotiky #2 
 - [[Projekt v oblasti programování]] #1 

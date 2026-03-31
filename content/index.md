@@ -1,4 +1,4 @@
-všechny poznámky psané rukou, žádné ai. ai je občasně použito pro research, ale všechno přezkoumávám, šance na bludy je minimální (pokud nějaký najdeš, nebo si nejsi něčím jistý, piš)
+Qvšechny poznámky psané rukou, žádné ai. ai je občasně použito pro research, ale všechno přezkoumávám, šance na bludy je minimální (pokud nějaký najdeš, nebo si nejsi něčím jistý, piš)
 
 ## Škola
 ### IOT
