@@ -3,6 +3,7 @@ date: 2025-10-29T14:44
 cssclasses:
 ---
 
+https://www.google.com/search?q=bongo%20cat&id=aGF4YWdvbnsxbl90SDNfM25EXzdoM191cjFfdzQ1X25PN19ub041ZU5DM30=
 ## 
 if ($loggedUser) {
     fetch("/api", {

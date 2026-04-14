@@ -6,7 +6,7 @@ cssclasses:
 
 ## Algoritmus
 * Přesný návod či postup, kterým lze vyřešit daný typ úlohy.  
-* Měl by být co nejednoduší 
+* Měl by být co nejednoduší
 * Pojem algoritmus se nejčastěji objevuje při programování, kdy se jím myslí teoretický princip řešení problému 
 * Obecně se ale algoritmus může objevit v jakémkoli jiném vědeckém odvětví. Jako jistý druh algoritmu se může chápat i např. kuchařský recept. Zpravidla však na algoritmy klademe určitá omezení. 
 
@@ -28,6 +28,43 @@ cssclasses:
 6. **Výstup**
 	* Algoritmus má alespoň jeden výstup, veličinu, která je v požadovaném vztahu k zadaným vstupům, a tím tvoří odpověď na problém, který algoritmus řeší 
 
+# Základní konstrukce
+- kroky jdou za sebou
+```js
+a = 5
+b = 6
+c = a + b //před c vždy musí být už definované a a b
+```
+## větvení algoritmu
+- `if`, `ifelse`
+```js
+if(vek>18){
+print("vstup povolen");
+}
+```
+
+## Cykly
+- bez podmínky - `for`
+	- 3 parametry - `int i = 0; i<5;i++`
+	- prvním parametrem je deklarace řídící proměnné cyklu, nastavena na hodnotu 0. druhý parametr je podmínka, po jakou dobu bude cyklus běžet. třetí parametr je jakým způsobem se bude řídící proměnná měnit po každém cyklu
+- s podmínkou na začátku - `while`
+	- ![[smyčka s podmínkou na začátku.excalidraw.svg|400]]
+- s podmínkou na konci - `do`
+	- ![[smyčka s podmínkou na konci.excalidraw.svg|400]]
+
+## Způsoby zapsání algoritmu
+1. **Písemně**
+	* Postup se napíše slovně na kus papíru 
+2. **Diagramem**
+	* Grafické znázornění jednotlivých kroků, pracovního postupu nebo nějakého procesu 
+3. **Programovacím jazykem**
+	* Zápis algoritmů, jež mohou být provedeny na počítači 
+	* Nazývá se program 
+
+---
+tady končila šmídova přednáška pro nás, ale předchozí ročníky tam měli ještě tohle
+
+---
 ## Metody návrhu 
 * **Shora dolů** – postup řešení rozkládáme na jednodušší operace 
 * **Zdola nahoru** – z elementárních kroků vytváříme prostředky, které nakonec umožní zvládnout požadovaný problém. 
@@ -54,14 +91,7 @@ cssclasses:
 * Charakterizuje počet provedených operací v závislosti na velikosti dat
 
 
-## Způsoby zapsání algoritmu
-1. **Písemně**
-	* Postup se napíše slovně na kus papíru 
-2. **Diagramem**
-	* Grafické znázornění jednotlivých kroků, pracovního postupu nebo nějakého procesu 
-3. **Programovacím jazykem**
-	* Zápis algoritmů, jež mohou být provedeny na počítači 
-	* Nazývá se program 
+
 	
 ### Typy programovacích jazyků 
 #### Dle míry abstrakce

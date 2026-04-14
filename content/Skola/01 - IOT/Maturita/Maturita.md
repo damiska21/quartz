@@ -5,6 +5,7 @@ tags:
 ---
 - něco je kradený z https://github.com/vofy/Maturita
 - kde je napsaný čas tam jsem si dělal testovací přednes a nedalo mi to
+# [[Seznam Četby]]
 # Kybernetická bezpečnost - 20
 - [[Základy kybernetické bezpečnosti]] - *done*
 - Bezpečnost na internetu a v lokálních sítích
@@ -13,7 +14,7 @@ tags:
 - [[Úlohy aktualizací a monitorovacích systémů v oblasti kyberneticky]]
 - [[Bezpečnost dat a jejich ochrana]]
 - [[Steganografie a kryptografie v kybernetické bezpečnosti]]
-- Autorský zákoník a zákon o kybernetické bezpečnosti v běžném životě
+- [[Autorský zákoník a zákon o kybernetické bezpečnosti v běžném životě]]
 - [[Organizace a týmy zapojené do kybernetické bezpečnosti]]
 - [[Serverové a desktopové operační systémy]]
 - [[Bezpečnost operačních systémů z pohledu kybernetiky]] 
@@ -58,7 +59,7 @@ tags:
 - Návrh Active Directory 
 - Bezpečnost dat v systému
 - Realizace webhostingu
-- Segmentace sítě - **budeme dělat**
+- Segmentace sítě
 - [[Realizace počítačové sítě s aktivním prvkem]]
 - Projekt z robotiky #1 
 - Projekt z robotiky #2 

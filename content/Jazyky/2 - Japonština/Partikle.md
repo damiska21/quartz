@@ -4,7 +4,7 @@ cssclasses:
 ---
 
 
-- přichází vždycky po slovu na který se lepí
+- partikl přichází vždycky po slovu na který se lepí
 - partikle definují roli slova ve větě jakože - tohle je podmět, tohle je předmět
 - občas jde se na tohle vysrat, ale zpravidla to používají
 - が označuje podmět věty

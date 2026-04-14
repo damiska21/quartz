@@ -8,7 +8,6 @@ cssclasses:
 	- umožňuje data ukládat, vyhledávat, upravovat, mazat, bezpečně spravovat
 	- Create, Read, Update, Delete - CRUD zkratka - důležité
 - nemusí být digitální, může to být sešit s tabulkou, několik šanonů
-- databáze - úložiště dat
 - databázový stroj - software, který vytváří tabulku
 
 - bez databází - by programy ztráceli uživatele po vypnutí, neuměla ukládat objednávky, neměla žádnou historii akcí
@@ -37,7 +36,7 @@ cssclasses:
 | uzivatel:2 | martin |
 ## Relační
 - používá SQL - Structured Query Language, pro ovládání hodnot
-- sloupce - fields, řádky - fields
+- sloupce - fields, řádky - fields #??
 - jednotlivé fields mají určený datový typ - int, string, datum...
 - vyžaduje schéma
 
