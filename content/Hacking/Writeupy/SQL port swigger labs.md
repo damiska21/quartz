@@ -1,0 +1,9 @@
+---
+date: 2026-04-22T10:59
+cssclasses:
+---
+
+```
+SELECT * FROM products WHERE category = 'user input'
+SELECT * FROM products WHERE category = ' ' UNION SELECT * from products-- '
+```

@@ -3,7 +3,7 @@ date: 2026-03-27T16:36
 cssclasses:
 ---
 
-[helper](https://helper.cylab.local) | [haxagon](https://haxagon.xyz) | [hacktricks](https://hacktricks.wiki) | 
+[helper](https://helper.cylab.local) | [haxagon](https://haxagon.xyz) | [hacktricks](https://hacktricks.wiki) | [labs](https://labs.cai.do) 
 # Metody
 ```meta-bind-button
 label: Nová metoda

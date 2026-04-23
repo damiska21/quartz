@@ -75,7 +75,7 @@ cssclasses:
 * eXtensible hypertext markup language rozšiřitelný hypertextový značkovací jazyk
 * Striktnější než html
 	* Nepodporuje křížení tagů (např. `<b><i>text</b></i>` - špatně, `<b><i>text</i></b>` - správně)
-	* Nepárové tagy končí lomítkem
+	* Nepárové tagy končí lomítkem `<br/>`
 	* Všechny atributy mají hodnoty v uvozovkách
 	* Dokument by měl mít XML prolog `<?xml version="1.0" encoding="UTF-8"?>`
 

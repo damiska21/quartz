@@ -4,12 +4,14 @@ tags:
   - 
 ---
 - název : RJ-45
+- analogový typ signálu
 - rychlost :
 	- 100mbit/s - 2 páry (oranž + zelený)
 	- 1000mbit/s a víc-   všechny 4 páry + správná kategorie
 - 2 zapojení kabelu :
-	- křížený = T568A - T568B (pro stejná zařízení. PC->PC, switch->switch)
-	- přímý   = T568B - T568B (vše ostatní)
+	- křížený (cross-over) = T568A - T568B (pro stejná zařízení. PC->PC, switch->switch)
+		- v dnešní době irelevantní, většina síťovek si dokáže uvědomit, že připojení je pomocí ST ikdyž by měl být CO, a tak si to virtuálně prohodí sám (cca rok 2005 a starší) - Funkce **Auto MDI-X** (tohle jsme si neříkali v hodině)
+	- přímý (straight-through)  = T568B - T568B (pro dvě různá zařízení, jako pc->switch, switch->router)
 - zapojení konektoru
 	- T568A
 	- T568B
@@ -18,4 +20,3 @@ tags:
 - ochrana kabelu
 	- UTP
 	- STP - shielded twisted pair - má extra protekční dráty
-- analogový typ signálu
