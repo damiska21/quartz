@@ -12,11 +12,11 @@ tags:
 	- křížený (cross-over) = T568A - T568B (pro stejná zařízení. PC->PC, switch->switch)
 		- v dnešní době irelevantní, většina síťovek si dokáže uvědomit, že připojení je pomocí ST ikdyž by měl být CO, a tak si to virtuálně prohodí sám (cca rok 2005 a starší) - Funkce **Auto MDI-X** (tohle jsme si neříkali v hodině)
 	- přímý (straight-through)  = T568B - T568B (pro dvě různá zařízení, jako pc->switch, switch->router)
+	- #todo proč to musí být prohozený
 - zapojení konektoru
 	- T568A
 	- T568B
 		- mají prohozoné zelené a oranžové konektory 
-		- #todo který je který a který se kam zapojuje
 - ochrana kabelu
 	- UTP
 	- STP - shielded twisted pair - má extra protekční dráty

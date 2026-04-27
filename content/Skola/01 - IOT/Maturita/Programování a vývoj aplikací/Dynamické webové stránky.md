@@ -9,20 +9,27 @@ cssclasses:
 	- je na nich nějaký login
 - u statických je web nějaký soubor, který si otevře prohlížeč, jsou v něm HTML tagy, případně JS nebo CSS
 - u dynamických když zadáme požadavek tak se na serveru spustí aplikace a server předává prohlížeči HTML stránku
-	- jd
 - ASP vyžaduje IIS server (internetová informační služba)
 
 - dvě technologie, php, asp.net
 
 - složka www/inetpub
 
-
-# Architektura Model View Controller
-- model
-	- na práci s databází, objektově
 Dynamická webová stránka je druh webové stránky, jejíž obsah byl vygenerován aktuálními informacemi pro každé individuální zobrazení. Nejedná se o statickou webovou stránku, neboť **její obsah se mění v závislosti na čase** (např. blog), **uživateli** (např. přihlášení uživatele pomocí session), **uživatelské interakci** (např. online počítačová hra), 
 **kontextu** (např. přizpůsobení pomocí parametrů) nebo jakékoli kombinaci předchozího.
-- Klient server architektura
+- [[Klient server (c-s)]] architektura
+# Architektura Model View Controller
+- model
+	- pracuje s databází
+	- zpracováva veškerou logiku dat
+- view
+	- má html šablony na prezentování dat
+	- vyplňuje tyto šablony a posílá je controlleru
+- controller
+	- ovládá celý request
+	- na základě requestu získává data z daného modelu a data posílá na daný view aby vygeneroval prezentaci dat (html stránku) a tu navrací uživateli
+- model a view spolu nikdy nekomunikují napřímo, vždy pouze přes controller
+- 
 
 ## Skriptování a vytváření obsahu na straně klienta
 -	využíváno pro změnu obsahu webové stránky tak, že příslušný kód je uvnitř webové stránky a reaguje na události generované z klávesnice nebo myši.
@@ -43,10 +50,10 @@ Dynamická webová stránka je druh webové stránky, jejíž obsah byl vygenero
     - Menší výpočetní výkon na straně klienta
 -	Nevýhody:
     - Soukromější obsah (databáze), uložený na serveru, je méně viditelný pro internet, a proto se i **hůře vyhledává**.
-  
+
 ## Kombinování stran klienta a serveru
 - AJAX je technologie vývoje webových stránek pro dynamickou výměnu obsahu se stranou serveru bez nutnosti znovu načíst webovou stránku. Příkladem webových aplikací používající AJAX technologii a databázi jsou Google mapy.
-
+ 
 ## Formulář
 - form - Párový tag. Uzavírá skupinu ovládacích polí do jednoho formuláře, který bude najednou odeslán.
 - Action obvykle míří na nějaký CGI skript nebo PHP nebo ASP. Není-li uvedeno, odešlou se data téže stránce.
@@ -70,3 +77,4 @@ Dynamická webová stránka je druh webové stránky, jejíž obsah byl vygenero
 
 ## Databáze
 - Databáze (neboli datová základna, též databanka) je systém souborů s pevnou strukturou záznamů. Tyto soubory jsou mezi sebou navzájem propojeny pomocí klíčů. V širším smyslu jsou součástí databáze i softwarové prostředky(např. dotazovací jazyk SQL), které umožňují manipulaci s uloženými daty a přístup k nim.
+- [[Databáze|více]]

@@ -22,7 +22,7 @@ cssclasses:
 	- [[Ring]]
 	- [[Star]]
 	- [[Extended star]]
-- podle topologie *vysvětlení*
+- podle topologie
 	- logická
 		- jak spolu uzly komunikují, bez ohledu na fyzické zapojení
 		- kdo může komunikovat s kým, adresy, kdo má přístup k síťovým diskům...
@@ -48,7 +48,7 @@ cssclasses:
 		- prakticky celý internet
 
 ### Komunikace
-- ke komunikaci se používá vrstvový model TCP-IP
+- ke komunikaci se používá [[Vrstvové modely|vrstvový model]] [[TCP-IP]]
 
 # Extra yap
 - beztak firemní politika, to se dá hodit všude

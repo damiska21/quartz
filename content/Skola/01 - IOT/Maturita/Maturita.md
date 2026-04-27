@@ -8,7 +8,7 @@ tags:
 # [[Seznam Četby]]
 # Kybernetická bezpečnost - 20
 - [[Základy kybernetické bezpečnosti]] - *done*
-- Bezpečnost na internetu a v lokálních sítích
+- [[Bezpečnost na internetu a v lokálních sítích]]
 - [[Kybernetické hrozby a ochrana proti nim]]
 - [[Revitalizace počítačové sítě]] *po kybernetickém útoku*
 - [[Úlohy aktualizací a monitorovacích systémů v oblasti kyberneticky]]
@@ -29,10 +29,10 @@ tags:
 - [[Aplikační protokoly v sítích]]
 
 # Programování a vývoj aplikací - 20
-- [[Webové prezentace ve formátu HTML5]] - **nedodělané**
-- [[Využívání CSS v kombinaci s HTML]] - **nedodělané**
+- [[Webové prezentace ve formátu HTML5]] - *done*
+- [[Využívání CSS v kombinaci s HTML]] - *snad done*
 - [[Dynamické webové stránky ]] - **nedodělané**
-- Základní pojmy v oblasti robotiky 
+- [[Základní pojmy v oblasti robotiky]] 
 - [[IoT (programování, bezpečnost a jednotlivé části IoT) ]]
 - Úvod do programování robotů 
 - Softwarová a hardwarová výbava robota 
