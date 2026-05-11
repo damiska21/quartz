@@ -15,7 +15,7 @@ mechanizace, vodní energie, parní energie
 - počítače, plně automatické linky
 ## 4.0
 - plná automatizace
-- spolupráce robotů - koboti
+- spolupráce robotů - koboti (nikoliv kokoti!)
 ## 5.0
 - teď
 - návrat člověka do průmyslu
@@ -61,4 +61,23 @@ mechanizace, vodní energie, parní energie
 - ruku lze programovat taháním, čapneš tu ruku, uvolníš ty motory a někam to dotáhneš a ono to začne pracovat s tou souřadnicí
 
 - popiš lego, ten soft na to, co se v tom dá programovat za jazyky
+# Druhy robotů
+- samostatný
+	- robotický ruce
+- koboti
+	- cooperation-bot
+	- dva a více robotů spolupracující mezi sebou
+	- nebo spolupráce s člověkem v industry 5.0
+- specializování roboti
+	- zdravotnictví
+	- armáda
+		- likvidace bomb
+		- průzkumný roboti
+		- trošku i droni
 
+# 3 zákony robotiky
+1) robot nesmí ublížit člověku
+2) robot musí uposlechnout příkazu člověka
+3) robot musí chránit sám sebe před poškozením, není li tato ochrana v rozporu s 1 a 2
+
+příkazy jdou podle priority, první se musí dodržet vždycky, pak až 2 atd.

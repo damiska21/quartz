@@ -53,3 +53,39 @@ cssclasses:
 - CSIRT-VUT - také univerzitní tým, Vysoké učení v Brně
 - GOVCERT-CZ - **vládní** tým dohlížející na sítě vlády ČR, kritickou infrastrukturu vlády a orgánů veřejné správy
 
+- top - vláda
+- pod ní - ministerstva
+	- ministerstvo vnitra
+	- ministerstvo zahraničí
+	- částečně ministerstvo financí
+		- financují ty dvě nad tím v rámci kyber
+	- ministerstvo obrany
+		- krizový štáb
+			- armáda
+				- prapor kybernetické bezpečnosti
+			- policie čr
+			- kriminální policie
+	- vládní - BIS - bezpečnostní informační služba, tajní agenti
+		- úřad zahranicnich styku a informaci
+		- vojenské zpravodajství
+	- NÚKIB - národní úřad pro kybernetickou a informační bezpečnost
+	- CERT 
+		- národní týmy
+		- govcert
+		- nic.cz tým
+- CSIRT
+	- nemusejí mít certifikaci
+	- může ho mít jakákoliv instituce
+
+
+## stupně bezpečnosti
+- TLP protokol
+	- traffic light protokol
+	- červená - neříct vůbec nikomu
+	- žlutá - říct lidem s pravomocema
+	- zelená - známé uvnitř firmy
+	- clear - kompletně veřejné
+
+# extra
+- co je kybernetický prostor
+- zákon o kybernetice

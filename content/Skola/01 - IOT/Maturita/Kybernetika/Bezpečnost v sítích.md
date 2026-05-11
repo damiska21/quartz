@@ -27,7 +27,7 @@ cssclasses:
 - zakončení pasivních prvků
 	- zakončení v zásuvce u klienta
 	- na switchi - patch panel a rack
-		- aby se neprasil kabel zadělaný v 
+		- aby se neprasil kabel zadělaný v samotném switchi
 	- zamezení přístupu ke kabeláži pomocí zamykatelných rackových skříní
 
 ## Aktivní prvky

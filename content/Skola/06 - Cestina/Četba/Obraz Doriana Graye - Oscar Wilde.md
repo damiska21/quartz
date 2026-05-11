@@ -9,7 +9,7 @@ zapsane: false
 Oscar Wilde (\* 1854 - 1900)
 
 ## Život
-- pohrdával s názory a morálkou vyšších sociáních vrstev
+- pohrdával s názory a morálkou vyšších sociálních vrstev
 - žil bohémský život
 	- jeho život se dá porovnat s životem Doriana Graye
 - vzal si jeho manželku čistě kvůli finančnímu zabezpečení
@@ -26,11 +26,25 @@ Oscar Wilde (\* 1854 - 1900)
 - 
 
 # Rozbor díla
+- epika, filozofický román
 - časoprostor
 	- Londým
 	- 19. století
 - téma morálky a svědomí, skaženosti společnosti i jednotlivých lidí
-- 
+- chronologické
+- rozděleno do 20 kapitol
+- náznak rámcové kompozice - kniha začíná a končí u obrazu
+- filozofické vsuvky - děj je prokládán dlouhými dialogy a monology (hlavně lorda Henryho), které velmi zpomalují tempo vyprávění
+
+- faustovské téma (vzdělanec uzavře smlouvu s ďáblem) - dorianova touha po věčném mládí, výměnou za jeho duši
+- motiv dvojnictví - v Dorianovi zároveň žije člověk z vysoké společnosti, kterého do něj vmanipuloval Henry, a zároveň v něm zůstává člověk z nízké vrstvy
+
+- er-forma, vypravěč vševědoucí
+- střídá se vyprávění s popisnými pasážemi - dorianovy koníčky, sbírky...
+- dialogy - nejvíce mezi henrym a dorianem; monology - vnitřní monology doriana, přemýšlí o svém osudu a o obraze
+
+- velmi květnatý a bohatý jazyk
+- aforismy, paradoxy (lord Henry), přirovnání, metafory, řečnické otázky, symbolismus (obraz jako duše, květiny jako čistota a vášeň)
 # Hlavní Postavy
 - tři hlavní postavy mají mezi sebou velké rozdíli, kniha je postavena na jejich kontrastech
 - Dorian Gray

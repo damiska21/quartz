@@ -13,7 +13,6 @@ cssclasses:
 	- mechanický
 		- HDD
 		- SSHDD - hybridní disk
-			- 
 - Rozhraní
 	- SATA (I, II, III) - sériový přenos
 		- Napájení: SATA power (standard (stolák), slimline (malej stolák), micro (laptop))
@@ -49,7 +48,7 @@ cssclasses:
 | PRINCIP          | žádný mirroring, jenom rozdělení dat mezi disky | Data jsou stejně na obou discích | Každá skupina bloků na disku má přiřazený právě jeden paritní blok | data se rovnoměrně rozdělí na dva disky (raid 0) a tyto dva disky jsou pak mirrornuty na další dva disky (raid 1) | to samý jako 0+1 akorát obráceně, viz. obrázek |
 | POČET DISKŮ      | alespoň 2                                       | alespoň 2                        | alespoň 3                                                          | alespoň 4                                                                                                         | alespoň 4                                      |
 | TOLERANCE ZTRÁTY | žádný disk (ztráta dat při jakémkoliv selhání)  | 1 disk                           | 1 disk                                                             | 2 disky pokud jsou ve stejném raid 0 (stripu), jinak 1                                                            | 1 disk v každém mirroru (2 :D)                 |
-| OBRÁZEK          | ![[raid0.png\|100]]                             | ![[raid1.png\|100]]              | ![[raid5.png\|200]]                                                | ![[raid01.png\|200]]                                                                                              | ![[raid10.png\|200]]                           |
+| OBRÁZEK          | ![[raid0.png\|80]]                              | ![[raid1.png\|80]]               | ![[raid5.png\|200]]                                                | ![[raid01.png\|200]]                                                                                              | ![[raid10.png\|200]]                           |
 
 ## HDD
 - **Mechanický disk** (uvnitř jsou pevné rotující plotny, na kterých jsou data zaznamenávána)
@@ -86,9 +85,10 @@ cssclasses:
 	- electric erase programmable read only memory
 - FLASH
 - CMOS - bios, jde měnit pouze část, ve které jsou některá nastavení
+
 - CD-ROM (RW) – 650 MB, 700 MB
 - DVD-ROM (RW+, RW-, RAM) – 4,7 GB, 9,4 GB, 18,8 GB; + lakované, odolnější proti oděrům
-- Data jsou uspořádána do spirály
+	- Data jsou uspořádána do spirály, od vnitřku do vnějšku
 
 # RAM (Random Access Memory)
 - Volatilní paměť 

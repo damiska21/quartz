@@ -33,7 +33,7 @@ cssclasses:
 - sem spadají přírodní katastrofy
 
 
-# Základní rozdělené
+# Základní rozdělení
 - malware / škodlivý software
 	- viry ransomware červy, trojské koně
 - podvodné praktiky
@@ -45,7 +45,7 @@ cssclasses:
 - co je to virus, jak se bránit
 - historie viru
 
-### Trojský k´ůň
+### Trojský kůň
 - malware schovaný často v cracked softwaru
 - trojan downloader - jakmile ho spustíš stáhne dalších několik trojanů
 - backdoor trojan

@@ -44,6 +44,7 @@ actions:
     openIfAlreadyExists: true
 
 ```
+#### [[Nástroje todo]]
 ```dataview
 
 LIST

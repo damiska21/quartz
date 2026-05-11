@@ -2,6 +2,7 @@
 date: 2025-10-04T16:47
 cssclasses:
 ---
+- html je standart od w3c (world wide web consortium)
 ## HTML
 - Název značkovacího jazyka používaného pro tvorbu webových stránek, které jsou propojeny hypertextovými odkazy. HTML je hlavním z jazyků pro vytváření stránek v systému World Wide Web, který umožňuje publikaci dokumentů na Internetu. Dnes se používá HTML5.
 - Klient-server architektura

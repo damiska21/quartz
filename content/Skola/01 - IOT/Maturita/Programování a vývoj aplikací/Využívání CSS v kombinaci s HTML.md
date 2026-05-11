@@ -29,6 +29,7 @@ cssclasses:
 /*tohle je css komentář, může být i na několik řádků*/
 /*výběr všech elementů*/
 h2 {
+	/*parametr hodnota*/
 	color: red;
 }
 
@@ -102,6 +103,9 @@ styl můžeme často vpisovat přímo do atributu html tagu
 - vlastnosti `content`, `border`, `margin`, `padding`
 - ![[Pasted image 20260425185211.png]]
 # Layout
+- absolutní x relativní
+
+
 - display
 	- block, inline, inline-block, none
 - flexbox

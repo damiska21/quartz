@@ -25,7 +25,7 @@ tags:
 - [[Základy počítačových sítí]] - 8 minut
 - [[Bezpečnost v sítích]] - **nedodělané**
 - [IP adresace](IP%20adresa)
-- [Segmentace počítačových sítí](VLAN) - **necháváme na konec**
+- [Segmentace počítačových sítí](VLAN)
 - [[Aplikační protokoly v sítích]]
 
 # Programování a vývoj aplikací - 20
@@ -34,8 +34,8 @@ tags:
 - [[Dynamické webové stránky ]] - **nedodělané**
 - [[Základní pojmy v oblasti robotiky]] 
 - [[IoT (programování, bezpečnost a jednotlivé části IoT) ]]
-- Úvod do programování robotů 
-- Softwarová a hardwarová výbava robota 
+- [[Úvod do programování robotů]] - *empty*
+- [[Softwarová a hardwarová výbava robota]] - *empty*
 - [[Databáze]]
 - [[SQL databáze]]
 - [[Základy algoritmizace]] 

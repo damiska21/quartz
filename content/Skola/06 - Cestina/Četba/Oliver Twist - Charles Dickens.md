@@ -5,7 +5,7 @@ zdroj: https://rozbor-dila.cz/oliver-twist-rozbor-dila-k-maturite/
 autor: Charles Dickens
 zapsane: true
 ---
-Inline:: chybí literárně historický kontext
+
 # Autor
 Charles Dickens (\*1812 - +1870)
 ## Život
@@ -13,7 +13,7 @@ Charles Dickens (\*1812 - +1870)
 - představitel světového realismu
 - jako dítě musel pracovat v továrně
 - povídky byli inspirovány jeho dětstvím
-- první malá díla vycházeli v časopisech, poté dostal od nakladatelství objednávku na knihu, napsal Kroniku Pickwickova klubu
+- první malá díla vycházely v časopisech, poté dostal od nakladatelství objednávku na knihu, napsal Kroniku Pickwickova klubu
 ## Další tvorba
 - Kronika Pickwickova klubu - homoristický román
 - Mikuláš Nickeby
@@ -41,7 +41,7 @@ Charles Dickens (\*1812 - +1870)
 - John Dawkins - mladý kapsář pod Faginem, zaučuje Olivera v řemesle
 - Fagin - prohnaný starý žid, šéf bandy zlodějů, organizuje krádeže, ukládá kradené věci, poskytuje kapsářům útočiště
 - Paní Maylieová - šlechetná starší dáma, pečuje o Olivera, po tom co byl u nich doma postřelen, má dobré srdce a Olivera si oblíbí
-- Róza Maylieová - adoptovaná dcera paní Maylieová, Oliverova teta, má podíl na zjištění Oliverova původu.
+- Róza Maylieová - adoptovaná dcera paní Maylieové, Oliverova teta, má podíl na zjištění Oliverova původu.
 - Nancy - zlodějka, přátelí se se Sikesem, kvůli kterému je v kapsářské bandě, v jádru je dobrosrdečná
 - Sikes, Monks - zloději, více o nich nevíme, Sikes na konci zabil Nancy
 - pan Losberne - doktor, spravedlivý, inteligentní

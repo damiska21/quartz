@@ -31,7 +31,7 @@ George Orwell (\*1903 - 1950)
 	- Samuel Beckett - Čekání na Godota
 - antiutopie, sci-fi
 	- Ray Bradbury - 451 stupňů Farenheita
-	- Karel Čapek - Válka s mloky, R. U. R
+	- Karel Čapek - Válka s mloky, [[R. U. R - Karel Čapek|R. U. R]]
 # Rozbor díla
 - epika
 - antiutopistický román (Antiutopie- opak utopie, společnost se vyvinula špatným směrem)
