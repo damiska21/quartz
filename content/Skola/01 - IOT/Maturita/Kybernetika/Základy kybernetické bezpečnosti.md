@@ -3,7 +3,7 @@ date: 2025-10-08T10:54
 cssclasses:
 ---
 
-- norbert wiener - bůh kybernetiky
+- norbert wiener (matematik) zavedl termín kybernetika jako nauka o informacích v roce 1948
 - kybernetika se zabívá procesy
 	- kybernetika je ve všech odvětvích - IT, management, ekonomika
 - princip řízení, algoritmus -> má nějaký začátek, a řešení
@@ -101,7 +101,7 @@ Počítačová ochrana ve třech krocích:  
         - technika ve kterém útočník oklame uživatele, aby kliknul na tlačítko nebo odkaz na webovou stránku, zatímco uživatel měl v úmyslu kliknout na vrchní úroveň stránky 
     - Sociální inženýrství 
         - snaha přesvědčit uživatele, aby dobrovolně prozradil své citlivé údaje, například hesla pro přístup k soukromým službám 
-    - Malware 
+    - [[Malware]] 
     - Krádež identity 
     - Brute force 
 
@@ -122,7 +122,9 @@ Počítačová ochrana ve třech krocích:  
 
 Opatření: 
 - Silná hesla 
+	- nad 12 znaků
 - Více faktorové ověření 
+	- něco, co znáte (heslo, pin), něco, co máte (telefon, hardwarový token), něco, čím jste (otisk prstu, biometrie)
 - Antivir 
 - Pravidelné aktualizace 
 - Zálohování dat 

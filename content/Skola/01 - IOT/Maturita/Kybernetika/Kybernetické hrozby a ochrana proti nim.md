@@ -17,7 +17,9 @@ cssclasses:
 - propadnutí sociálnímu inženýrství - prozrazení informací
 - poškození technického aktiva
 
-- náhodné - živelná pohroma (vichřice, povodeň, vysoké teploty), blackout, brownout, noise
+## náhodné
+- živelná pohroma (vichřice, povodeň, vysoké teploty), blackout, brownout, noise
+
 ## Úmyslné
 - útoky
 - DDoSy
@@ -34,32 +36,18 @@ cssclasses:
 
 
 # Základní rozdělení
-- malware / škodlivý software
+- [[Malware]]
 	- viry ransomware červy, trojské koně
 - podvodné praktiky
 	- domain spoofing, sociální inženýrství, spam
 - útoky
 	- nespokojený zaměstnanec, nastrčený zaměstnanec
 
-
 - co je to virus, jak se bránit
 - historie viru
-
-### Trojský kůň
-- malware schovaný často v cracked softwaru
-- trojan downloader - jakmile ho spustíš stáhne dalších několik trojanů
-- backdoor trojan
-- špionážní trojan
-
-### Ransomware
-- zašifrovává data, útočník vyžaduje výkupné za odšifrování, které většinou nikdy nenastane
-
-### Nespokojený zaměstnanec
-- v tmobilu borec dostával málo a tak dal celou databázi uživatelů na ulož to :DDD
-
 # Ochrana
 
-- ochrana děl a autorský zákoník
+- ochrana děl a [[Autorský zákoník a zákon o kybernetické bezpečnosti v běžném životě#Autorské právo, autorský zákon|autorský zákoník]]
 - směrnice
 - řády
 - 

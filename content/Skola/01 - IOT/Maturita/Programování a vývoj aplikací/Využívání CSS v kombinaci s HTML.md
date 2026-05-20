@@ -2,6 +2,7 @@
 date: 2025-10-29T10:43
 cssclasses:
 ---
+
 # CSS
 - používaný pro stylování dokumentů psaných v markup jazycích jako HTML nebo XML
 - společně s HTML a Javascriptem mezi hlavními způsoby psaní stránek

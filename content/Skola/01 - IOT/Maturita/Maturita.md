@@ -51,7 +51,7 @@ tags:
 - [[Návrhové vzory - Interface – Servant, Generické třídy, Messenger.]] - asi dodělané
 
 # Praktická část MZ - 15
-- [[Zabezpečení počítačové sítě P2P]] - **budeme dělat**
+- [[Zabezpečení počítačové sítě P2P]]
 - Zabezpečení sítě client – server 
 - Konfigurace mail serveru s protokolem POP3
 - Konfigurace mail serveru s protokolem IMAP4

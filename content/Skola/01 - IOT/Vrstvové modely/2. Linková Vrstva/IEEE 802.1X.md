@@ -3,7 +3,7 @@ date: 2025-01-22T12:15
 zdroj: https://en.wikipedia.org/wiki/IEEE_802.1X
 ---
 - protokol pracuje na [[2. Linková Vrstva]]
-- tento protokol preventuje fyzický útok připojení cizího zařízení do sítě a získat tak neoprávněný přístup k firmě např. pomocí lan turtelu
+- tento protokol preventuje fyzický útok připojení cizího zařízení do sítě a získat tak neoprávněný přístup k firmě např. pomocí lan turtlu
 - pomocí tohoto protokolu vyžaduje Wi-fi či kabel autentizaci do sítě (připojení k LAN nebo WLAN)
 	- standartně uživatelské jméno a heslo nebo nějaký typ certifikátu
 	- přípojný bod (tedy router nebo switch) blokuje veškerý datový tok (kromě toku protokolu 802.1X) dokud se klient úspěšně neautentizuje
